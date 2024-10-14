@@ -1,0 +1,1057 @@
+﻿Type,Reference,Description
+Classes,Excel.AllowEditRange,"Represents an AllowEditRange object found in a worksheet. This object works with worksheet protection properties. When worksheet protection is enabled, an AllowEditRange object can be used to allow editing of a specific range, while maintaining protection on the rest of the worksheet."
+Classes,Excel.AllowEditRangeCollection,"Represents the set of AllowEditRange objects found in a worksheet. AllowEditRange objects work with worksheet protection properties. When worksheet protection is enabled, an AllowEditRange object can be used to allow editing of a specific range, while maintaining protection on the rest of the worksheet."
+Classes,Excel.Application,Represents the Excel application that manages the workbook.
+Classes,Excel.AutoFilter,Represents the AutoFilter object. AutoFilter turns the values in Excel column into specific filters based on the cell contents.
+Classes,Excel.Binding,Represents an Office.js binding that is defined in the workbook.
+Classes,Excel.BindingCollection,Represents the collection of all the binding objects that are part of the workbook.
+Classes,Excel.CellValueConditionalFormat,Represents a cell value conditional format.
+Classes,Excel.Chart,"Represents a chart object in a workbook. To learn more about the chart object model, see Work with charts using the Excel JavaScript API."
+Classes,Excel.ChartAreaFormat,Encapsulates the format properties for the overall chart area.
+Classes,Excel.ChartAxes,Represents the chart axes.
+Classes,Excel.ChartAxis,Represents a single axis in a chart.
+Classes,Excel.ChartAxisFormat,Encapsulates the format properties for the chart axis.
+Classes,Excel.ChartAxisTitle,Represents the title of a chart axis.
+Classes,Excel.ChartAxisTitleFormat,Represents the chart axis title formatting.
+Classes,Excel.ChartBinOptions,Encapsulates the bin options for histogram charts and pareto charts.
+Classes,Excel.ChartBorder,Represents the border formatting of a chart element.
+Classes,Excel.ChartBoxwhiskerOptions,Represents the properties of a box and whisker chart.
+Classes,Excel.ChartCollection,A collection of all the chart objects on a worksheet.
+Classes,Excel.ChartDataLabel,Represents the data label of a chart point.
+Classes,Excel.ChartDataLabelFormat,Encapsulates the format properties for the chart data labels.
+Classes,Excel.ChartDataLabels,Represents a collection of all the data labels on a chart point.
+Classes,Excel.ChartDataTable,Represents the data table object of a chart.
+Classes,Excel.ChartDataTableFormat,Represents the format of a chart data table.
+Classes,Excel.ChartErrorBars,This object represents the attributes for a chart's error bars.
+Classes,Excel.ChartErrorBarsFormat,Encapsulates the format properties for chart error bars.
+Classes,Excel.ChartFill,Represents the fill formatting for a chart element.
+Classes,Excel.ChartFont,"This object represents the font attributes (such as font name, font size, and color) for a chart object."
+Classes,Excel.ChartFormatString,"Represents the substring in chart related objects that contain text, like a ChartTitle object or ChartAxisTitle object."
+Classes,Excel.ChartGridlines,Represents major or minor gridlines on a chart axis.
+Classes,Excel.ChartGridlinesFormat,Encapsulates the format properties for chart gridlines.
+Classes,Excel.ChartLegend,Represents the legend in a chart.
+Classes,Excel.ChartLegendEntry,Represents the legend entry in legendEntryCollection.
+Classes,Excel.ChartLegendEntryCollection,Represents a collection of legend entries.
+Classes,Excel.ChartLegendFormat,Encapsulates the format properties of a chart legend.
+Classes,Excel.ChartLineFormat,Encapsulates the formatting options for line elements.
+Classes,Excel.ChartMapOptions,Encapsulates the properties for a region map chart.
+Classes,Excel.ChartPivotOptions,Encapsulates the options for the pivot chart.
+Classes,Excel.ChartPlotArea,This object represents the attributes for a chart plot area.
+Classes,Excel.ChartPlotAreaFormat,Represents the format properties for a chart plot area.
+Classes,Excel.ChartPoint,Represents a point of a series in a chart.
+Classes,Excel.ChartPointFormat,Represents the formatting object for chart points.
+Classes,Excel.ChartPointsCollection,A collection of all the chart points within a series inside a chart.
+Classes,Excel.ChartSeries,Represents a series in a chart.
+Classes,Excel.ChartSeriesCollection,Represents a collection of chart series.
+Classes,Excel.ChartSeriesFormat,Encapsulates the format properties for the chart series
+Classes,Excel.ChartTitle,Represents a chart title object of a chart.
+Classes,Excel.ChartTitleFormat,Provides access to the formatting options for a chart title.
+Classes,Excel.ChartTrendline,This object represents the attributes for a chart trendline object.
+Classes,Excel.ChartTrendlineCollection,Represents a collection of chart trendlines.
+Classes,Excel.ChartTrendlineFormat,Represents the format properties for the chart trendline.
+Classes,Excel.ChartTrendlineLabel,This object represents the attributes for a chart trendline label object.
+Classes,Excel.ChartTrendlineLabelFormat,Encapsulates the format properties for the chart trendline label.
+Classes,Excel.ColorScaleConditionalFormat,Represents the color scale criteria for conditional formatting.
+Classes,Excel.Comment,Represents a comment in the workbook.
+Classes,Excel.CommentCollection,Represents a collection of comment objects that are part of the workbook.
+Classes,Excel.CommentReply,Represents a comment reply in the workbook.
+Classes,Excel.CommentReplyCollection,Represents a collection of comment reply objects that are part of the comment.
+Classes,Excel.ConditionalDataBarNegativeFormat,Represents a conditional format for the negative side of the data bar.
+Classes,Excel.ConditionalDataBarPositiveFormat,Represents a conditional format for the positive side of the data bar.
+Classes,Excel.ConditionalFormat,"An object encapsulating a conditional format's range, format, rule, and other properties. To learn more about the conditional formatting object model, read Apply conditional formatting to Excel ranges."
+Classes,Excel.ConditionalFormatCollection,Represents a collection of all the conditional formats that are overlap the range.
+Classes,Excel.ConditionalFormatRule,"Represents a rule, for all traditional rule/format pairings."
+Classes,Excel.ConditionalRangeBorder,Represents the border of an object.
+Classes,Excel.ConditionalRangeBorderCollection,Represents the border objects that make up range border.
+Classes,Excel.ConditionalRangeFill,Represents the background of a conditional range object.
+Classes,Excel.ConditionalRangeFont,"This object represents the font attributes (font style, color, etc.) for an object."
+Classes,Excel.ConditionalRangeFormat,"A format object encapsulating the conditional formats range's font, fill, borders, and other properties."
+Classes,Excel.CultureInfo,"Provides information based on current system culture settings. This includes the culture names, number formatting, and other culturally dependent settings."
+Classes,Excel.CustomConditionalFormat,Represents a custom conditional format type.
+Classes,Excel.CustomProperty,Represents a custom property.
+Classes,Excel.CustomPropertyCollection,Contains the collection of custom properties.
+Classes,Excel.CustomXmlPart,Represents a custom XML part object in a workbook.
+Classes,Excel.CustomXmlPartCollection,A collection of custom XML parts.
+Classes,Excel.CustomXmlPartScopedCollection,"A scoped collection of custom XML parts. A scoped collection is the result of some operation (e.g., filtering by namespace). A scoped collection cannot be scoped any further."
+Classes,Excel.DataBarConditionalFormat,Represents an Excel conditional data bar type.
+Classes,Excel.DataConnectionCollection,Represents a collection of all the data connections that are part of the workbook.
+Classes,Excel.DataPivotHierarchy,Represents the Excel DataPivotHierarchy.
+Classes,Excel.DataPivotHierarchyCollection,Represents a collection of DataPivotHierarchy items associated with the PivotTable.
+Classes,Excel.DataValidation,"Represents the data validation applied to the current range. To learn more about the data validation object model, read Add data validation to Excel ranges."
+Classes,Excel.DatetimeFormatInfo,Defines the culturally appropriate format of displaying numbers. This is based on current system culture settings.
+Classes,Excel.DocumentProperties,Represents workbook properties.
+Classes,Excel.DocumentTask,Represents a task.
+Classes,Excel.DocumentTaskChange,Represents a recorded change to the task.
+Classes,Excel.DocumentTaskChangeCollection,Represents a collection of change records for a task.
+Classes,Excel.DocumentTaskCollection,Represents a collection of tasks.
+Classes,Excel.Filter,Manages the filtering of a table's column.
+Classes,Excel.FilterPivotHierarchy,Represents the Excel FilterPivotHierarchy.
+Classes,Excel.FilterPivotHierarchyCollection,Represents a collection of FilterPivotHierarchy items associated with the PivotTable.
+Classes,Excel.FormatProtection,Represents the format protection of a range object.
+Classes,Excel.FunctionResult,An object containing the result of a function-evaluation operation
+Classes,Excel.Functions,An object for evaluating Excel functions.
+Classes,Excel.GeometricShape,"Represents a geometric shape inside a worksheet. A geometric shape can be a rectangle, block arrow, equation symbol, flowchart item, star, banner, callout, or any other basic shape in Excel."
+Classes,Excel.GroupShapeCollection,Represents the shape collection inside a shape group.
+Classes,Excel.HeaderFooter,Represents a single header or footer in a worksheet
+Classes,Excel.HeaderFooterGroup,"Represents a group of headers or footers, typically categorized by their position (left, center, or right) on the page."
+Classes,Excel.IconSetConditionalFormat,Represents an icon set criteria for conditional formatting.
+Classes,Excel.Image,"Represents an image in the worksheet. To get the corresponding Shape object, use Image.shape."
+Classes,Excel.IterativeCalculation,Represents the iterative calculation settings.
+Classes,Excel.Line,"Represents a line inside a worksheet. To get the corresponding Shape object, use Line.shape."
+Classes,Excel.LinkedDataType,Represents a linked data type. A linked data type is a data type connected to an online data source.
+Classes,Excel.LinkedDataTypeCollection,Represents a collection of linked data types.
+Classes,Excel.LinkedWorkbook,"Contains information about a linked workbook. If a workbook has links pointing to data in another workbook, the second workbook is linked to the first workbook. In this scenario, the second workbook is called the ""linked workbook""."
+Classes,Excel.LinkedWorkbookCollection,Represents a collection of linked workbook objects.
+Classes,Excel.LocalImage,Provides information about the local image.
+Classes,Excel.NamedItem,"Represents a defined name for a range of cells or value. Names can be primitive named objects (as seen in the type below), range object, or a reference to a range. This object can be used to obtain range object associated with names."
+Classes,Excel.NamedItemArrayValues,Represents an object containing values and types of a named item.
+Classes,Excel.NamedItemCollection,"A collection of all the NamedItem objects that are part of the workbook or worksheet, depending on how it was reached."
+Classes,Excel.NamedSheetView,"Represents a named sheet view of a worksheet. A sheet view stores the sort and filter rules for a particular worksheet. Every sheet view (even a temporary sheet view) has a unique, worksheet-scoped name that is used to access the view."
+Classes,Excel.NamedSheetViewCollection,Represents the collection of sheet views in the worksheet.
+Classes,Excel.NumberFormatInfo,Defines the culturally appropriate format of displaying numbers. This is based on current system culture settings.
+Classes,Excel.PageBreak,Represents a single page break in a worksheet.
+Classes,Excel.PageBreakCollection,Represents a collection of page breaks in a worksheet.
+Classes,Excel.PageLayout,"Represents layout and print settings that are not dependent on any printer-specific implementation. These settings include margins, orientation, page numbering, title rows, and print area."
+Classes,Excel.PivotField,Represents the Excel PivotField.
+Classes,Excel.PivotFieldCollection,Represents a collection of all the PivotFields that are part of a PivotTable's hierarchy.
+Classes,Excel.PivotHierarchy,Represents the Excel PivotHierarchy.
+Classes,Excel.PivotHierarchyCollection,Represents a collection of all the PivotHierarchies that are part of the PivotTable.
+Classes,Excel.PivotItem,Represents the Excel PivotItem.
+Classes,Excel.PivotItemCollection,Represents a collection of all the PivotItems related to their parent PivotField.
+Classes,Excel.PivotLayout,Represents the visual layout of the PivotTable.
+Classes,Excel.PivotTable,"Represents an Excel PivotTable. To learn more about the PivotTable object model, read Work with PivotTables using the Excel JavaScript API."
+Classes,Excel.PivotTableCollection,Represents a collection of all the PivotTables that are part of the workbook or worksheet.
+Classes,Excel.PivotTableScopedCollection,Represents a scoped collection of PivotTables. The PivotTables are sorted based on the location of the PivotTable's top-left corner. They are ordered top-to-bottom and then left-to-right.
+Classes,Excel.PivotTableStyle,"Represents a PivotTable style, which defines style elements by PivotTable region."
+Classes,Excel.PivotTableStyleCollection,Represents a collection of PivotTable styles.
+Classes,Excel.PresetCriteriaConditionalFormat,"Represents the preset criteria conditional format such as above average, below average, unique values, contains blank, nonblank, error, and noerror."
+Classes,Excel.Query,Represents a Power Query query.
+Classes,Excel.QueryCollection,Represents the collection of queries in the workbook.
+Classes,Excel.Range,"Range represents a set of one or more contiguous cells such as a cell, a row, a column, or a block of cells. To learn more about how ranges are used throughout the API, start with Ranges in the Excel JavaScript API."
+Classes,Excel.RangeAreas,"RangeAreas represents a collection of one or more rectangular ranges in the same worksheet. To learn how to use discontiguous ranges, read Work with multiple ranges simultaneously in Excel add-ins."
+Classes,Excel.RangeAreasCollection,Contains the collection of cross-workbook level ranges.
+Classes,Excel.RangeBorder,Represents the border of an object.
+Classes,Excel.RangeBorderCollection,Represents the border objects that make up the range border.
+Classes,Excel.RangeCollection,Represents a collection of Excel.Range objects
+Classes,Excel.RangeFill,Represents the background of a range object.
+Classes,Excel.RangeFont,"This object represents the font attributes (font name, font size, color, etc.) for an object."
+Classes,Excel.RangeFormat,"A format object encapsulating the range's font, fill, borders, alignment, and other properties."
+Classes,Excel.RangeSort,Manages sorting operations on Range objects.
+Classes,Excel.RangeView,RangeView represents a set of visible cells of the parent range.
+Classes,Excel.RangeViewCollection,Represents a collection of RangeView objects.
+Classes,Excel.RemoveDuplicatesResult,Represents the results from Range.removeDuplicates.
+Classes,Excel.RequestContext,"The RequestContext object facilitates requests to the Excel application. Since the Office add-in and the Excel application run in two different processes, the request context is required to get access to the Excel object model from the add-in."
+Classes,Excel.RowColumnPivotHierarchy,Represents the Excel RowColumnPivotHierarchy.
+Classes,Excel.RowColumnPivotHierarchyCollection,Represents a collection of RowColumnPivotHierarchy items associated with the PivotTable.
+Classes,Excel.Runtime,Represents the Excel Runtime class.
+Classes,Excel.Setting,"Setting represents a key-value pair of a setting persisted to the document (per file, per add-in). These custom key-value pair can be used to store state or lifecycle information needed by the content or task-pane add-in. Note that settings are persisted in the document and hence it is not a place to store any sensitive or protected information such as user information and password."
+Classes,Excel.SettingCollection,Represents a collection of key-value pair setting objects that are part of the workbook. The scope is limited to per file and add-in (task-pane or content) combination.
+Classes,Excel.Shape,"Represents a generic shape object in the worksheet. A shape could be a geometric shape, a line, a group of shapes, etc. To learn more about the shape object model, read Work with shapes using the Excel JavaScript API."
+Classes,Excel.ShapeCollection,Represents a collection of all the shapes in the worksheet.
+Classes,Excel.ShapeFill,Represents the fill formatting of a shape object.
+Classes,Excel.ShapeFont,"Represents the font attributes, such as font name, font size, and color, for a shape's TextRange object."
+Classes,Excel.ShapeGroup,"Represents a shape group inside a worksheet. To get the corresponding Shape object, use ShapeGroup.shape."
+Classes,Excel.ShapeLineFormat,"Represents the line formatting for the shape object. For images and geometric shapes, line formatting represents the border of the shape."
+Classes,Excel.Slicer,Represents a Slicer object in the workbook.
+Classes,Excel.SlicerCollection,Represents a collection of all the slicer objects in the workbook or a worksheet.
+Classes,Excel.SlicerItem,Represents a slicer item in a slicer.
+Classes,Excel.SlicerItemCollection,Represents a collection of all the slicer item objects in the slicer.
+Classes,Excel.SlicerStyle,"Represents a slicer style, which defines style elements by region of the slicer."
+Classes,Excel.SlicerStyleCollection,Represents a collection of SlicerStyle objects.
+Classes,Excel.Style,An object encapsulating a style's format and other properties.
+Classes,Excel.StyleCollection,Represents a collection of all the styles.
+Classes,Excel.Table,"Represents an Excel table. To learn more about the table object model, read Work with tables using the Excel JavaScript API."
+Classes,Excel.TableCollection,"Represents a collection of all the tables that are part of the workbook or worksheet, depending on how it was reached."
+Classes,Excel.TableColumn,Represents a column in a table.
+Classes,Excel.TableColumnCollection,Represents a collection of all the columns that are part of the table.
+Classes,Excel.TableRow,Represents a row in a table.
+Classes,Excel.TableRowCollection,Represents a collection of all the rows that are part of the table.
+Classes,Excel.TableScopedCollection,"Represents a scoped collection of tables. For each table its top-left corner is considered its anchor location, and the tables are sorted top-to-bottom and then left-to-right."
+Classes,Excel.TableSort,Manages sorting operations on Table objects.
+Classes,Excel.TableStyle,"Represents a table style, which defines the style elements by region of the table."
+Classes,Excel.TableStyleCollection,Represents a collection of table styles.
+Classes,Excel.TextConditionalFormat,Represents a specific text conditional format.
+Classes,Excel.TextFrame,Represents the text frame of a shape object.
+Classes,Excel.TextRange,"Contains the text that is attached to a shape, in addition to properties and methods for manipulating the text."
+Classes,Excel.TimelineStyle,"Represents a TimelineStyle, which defines style elements by region in the timeline."
+Classes,Excel.TimelineStyleCollection,Represents a collection of timeline styles.
+Classes,Excel.TopBottomConditionalFormat,Represents a top/bottom conditional format.
+Classes,Excel.Workbook,"Workbook is the top level object which contains related workbook objects such as worksheets, tables, and ranges. To learn more about the workbook object model, read Work with workbooks using the Excel JavaScript API."
+Classes,Excel.WorkbookCreated,The WorkbookCreated object is the top level object created by Application.CreateWorkbook. A WorkbookCreated object is a special Workbook object.
+Classes,Excel.WorkbookProtection,Represents the protection of a workbook object.
+Classes,Excel.WorkbookRangeAreas,Represents a collection of one or more rectangular ranges in multiple worksheets.
+Classes,Excel.Worksheet,"An Excel worksheet is a grid of cells. It can contain data, tables, charts, etc. To learn more about the worksheet object model, read Work with worksheets using the Excel JavaScript API."
+Classes,Excel.WorksheetCollection,Represents a collection of worksheet objects that are part of the workbook.
+Classes,Excel.WorksheetCustomProperty,Represents a worksheet-level custom property.
+Classes,Excel.WorksheetCustomPropertyCollection,Contains the collection of worksheet-level custom property.
+Classes,Excel.WorksheetFreezePanes,Represents the freeze panes functionality in a worksheet.
+Classes,Excel.WorksheetProtection,Represents the protection of a worksheet object.
+Enums,Excel.AggregationFunction,Aggregation function for the DataPivotHierarchy.
+Enums,Excel.ArrowheadLength,"Specifies the length of an arrowhead in a line, typically used in shape and line formatting."
+Enums,Excel.ArrowheadStyle,"Specifies the style of an arrowhead in a line, such as open, closed, or none."
+Enums,Excel.ArrowheadWidth,"Specifies the width of an arrowhead in a line, determining its thickness."
+Enums,Excel.AutoFillType,The behavior types when AutoFill is used on a range in the workbook.
+Enums,Excel.Base64EncodingType,The file type represented by the base64 encoding.
+Enums,Excel.BindingType,"Defines the type of binding in an Excel add-in, such as for binding a range or a table."
+Enums,Excel.BlockedErrorCellValueSubType,Represents types of #BLOCKED! errors.
+Enums,Excel.BorderIndex,"Specifies which border of a range (top, bottom, left, right) is being referenced or styled."
+Enums,Excel.BorderLineStyle,"Specifies the line style of a border, such as solid, dashed, or dotted."
+Enums,Excel.BorderWeight,"Specifies the weight (thickness) of a border line, such as thin, medium, or thick."
+Enums,Excel.BuiltInPivotTableStyle,Represents a built-in PivotTable style
+Enums,Excel.BuiltInSlicerStyle,Represents a built-in slicer style.
+Enums,Excel.BuiltInStyle,"Represents the built-in styles available in Excel, such as ""Normal"", ""Title"", or ""Accent1""."
+Enums,Excel.BuiltInTableStyle,Represents a built-in table style.
+Enums,Excel.BusyErrorCellValueSubType,Represents types of #BUSY! errors.
+Enums,Excel.CalcErrorCellValueSubType,Represents types of #CALC! errors.
+Enums,Excel.CalculationMode,"Specifies the calculation mode for Excel, such as automatic, manual, or automatic except tables."
+Enums,Excel.CalculationState,Represents the state of calculation across the entire Excel application.
+Enums,Excel.CalculationType,"Defines the type of calculation performed by Excel, such as full or recalculation of dependent cells."
+Enums,Excel.CellValueType,Represents the types of the CellValue object.
+Enums,Excel.ChartAxisCategoryType,Specifies the type of the category axis.
+Enums,Excel.ChartAxisDisplayUnit,"Specifies the unit of display for a chart axis, such as hundreds, thousands, or millions."
+Enums,Excel.ChartAxisGroup,"Represents the group of chart axes, such as primary or secondary axes in a chart."
+Enums,Excel.ChartAxisPosition,"Specifies the position of an axis in a chart, such as left, right, top, or bottom."
+Enums,Excel.ChartAxisScaleType,"Specifies the scale type of a chart axis, such as linear or logarithmic."
+Enums,Excel.ChartAxisTickLabelPosition,"Specifies the position of tick labels on a chart axis, such as next to the axis or high/low positions."
+Enums,Excel.ChartAxisTickMark,"Specifies the type of tick marks on a chart axis, such as cross, inside, or outside."
+Enums,Excel.ChartAxisTimeUnit,Specifies the unit of time for chart axes and data series.
+Enums,Excel.ChartAxisType,"Specifies the type of axis in a chart, such as category, value, or series axis."
+Enums,Excel.ChartBinType,Specifies the bin type of a histogram chart or pareto chart series.
+Enums,Excel.ChartBoxQuartileCalculation,Represents the quartile calculation type of chart series layout. Only applies to a box and whisker chart.
+Enums,Excel.ChartColorScheme,"Represents the color scheme applied to a chart, determining how colors are assigned to chart elements."
+Enums,Excel.ChartDataLabelPosition,"Specifies the position of data labels in a chart, such as inside, outside, or above the data points."
+Enums,Excel.ChartDataSourceType,Specifies the data source type of the chart series.
+Enums,Excel.ChartDisplayBlanksAs,"Determines how blanks in the data are displayed in a chart, such as gaps, zero, or connected lines."
+Enums,Excel.ChartErrorBarsInclude,Represents which parts of the error bar to include.
+Enums,Excel.ChartErrorBarsType,Represents the range type for error bars.
+Enums,Excel.ChartGradientStyle,Represents the gradient style of a chart series. This is only applicable for region map charts.
+Enums,Excel.ChartGradientStyleType,Represents the gradient style type of a chart series. This is only applicable for region map charts.
+Enums,Excel.ChartLegendPosition,"Specifies the position of the legend in a chart, such as top, bottom, left, or right."
+Enums,Excel.ChartLineStyle,"Defines the style of lines in a chart, such as solid, dashed, or dotted lines."
+Enums,Excel.ChartMapAreaLevel,Represents the mapping level of a chart series. This only applies to region map charts.
+Enums,Excel.ChartMapLabelStrategy,Represents the region level of a chart series layout. This only applies to region map charts.
+Enums,Excel.ChartMapProjectionType,Represents the region projection type of a chart series layout. This only applies to region map charts.
+Enums,Excel.ChartMarkerStyle,"Specifies the style of markers in a chart, such as circle, square, or triangle markers."
+Enums,Excel.ChartParentLabelStrategy,Represents the parent label strategy of the chart series layout. This only applies to treemap charts
+Enums,Excel.ChartPlotAreaPosition,"Represents the position of the plot area in a chart, where the data is plotted."
+Enums,Excel.ChartPlotBy,"Determines how the chart is plotted, such as by rows or by columns."
+Enums,Excel.ChartSeriesBy,"Specifies whether the series are by rows or by columns. In Excel on desktop, the ""auto"" option will inspect the source data shape to automatically guess whether the data is by rows or columns. In Excel on the web, ""auto"" will simply default to ""columns""."
+Enums,Excel.ChartSeriesDimension,Represents the dimensions when getting values from chart series.
+Enums,Excel.ChartSplitType,"Defines how a pie or doughnut chart is split, such as by value, percentage, or custom split."
+Enums,Excel.ChartTextHorizontalAlignment,Represents the horizontal alignment for the specified object.
+Enums,Excel.ChartTextVerticalAlignment,Represents the vertical alignment for the specified object.
+Enums,Excel.ChartTickLabelAlignment,"Specifies the alignment of tick labels on a chart axis, such as center, left, or right alignment."
+Enums,Excel.ChartTitlePosition,Represents the position of the chart title.
+Enums,Excel.ChartTrendlineType,"Represents the type of trendline in a chart, such as linear, exponential, or moving average."
+Enums,Excel.ChartType,"Specifies the type of chart, such as bar, line, pie, or scatter chart."
+Enums,Excel.ChartUnderlineStyle,"Defines the underline style for text in a chart, such as single or double underline."
+Enums,Excel.ClearApplyTo,"Specifies what aspects of formatting are cleared, such as all formats, contents, or hyperlinks."
+Enums,Excel.CloseBehavior,Specifies the close behavior for Workbook.close.
+Enums,Excel.CommentChangeType,Represents how the comments in the event were changed.
+Enums,Excel.ConditionalCellValueOperator,Represents the operator of the text conditional format type.
+Enums,Excel.ConditionalDataBarAxisFormat,Represents the format options for a data bar axis.
+Enums,Excel.ConditionalDataBarDirection,Represents the data bar direction within a cell.
+Enums,Excel.ConditionalFormatColorCriterionType,Represents the types of color criterion for conditional formatting.
+Enums,Excel.ConditionalFormatDirection,Represents the direction for a selection.
+Enums,Excel.ConditionalFormatIconRuleType,Represents the types of icon conditional format.
+Enums,Excel.ConditionalFormatPresetCriterion,Represents the criteria of the preset criteria conditional format type.
+Enums,Excel.ConditionalFormatRuleType,Represents the types of conditional format values.
+Enums,Excel.ConditionalFormatType,"Represents the type of conditional formatting, such as data bars, color scales, or icon sets."
+Enums,Excel.ConditionalIconCriterionOperator,Represents the operator for each icon criteria.
+Enums,Excel.ConditionalRangeBorderIndex,"Specifies which border of a conditional format range (top, bottom, left, right) is referenced."
+Enums,Excel.ConditionalRangeBorderLineStyle,"Defines the line style for borders in a conditional format, such as solid, dashed, or dotted."
+Enums,Excel.ConditionalRangeFontUnderlineStyle,"Specifies the underline style for text in a conditional format, such as single or double underline."
+Enums,Excel.ConditionalTextOperator,Represents the operator of the text conditional format type.
+Enums,Excel.ConditionalTopBottomCriterionType,Represents the criteria for the above/below average conditional format type.
+Enums,Excel.ConnectErrorCellValueSubType,Represents types of #CONNECT! errors.
+Enums,Excel.ConnectorType,"Represents the type of connector line between shapes, such as straight, elbow, or curved."
+Enums,Excel.ContentType,"Specifies the content type, often used in file management and data exchange contexts."
+Enums,Excel.DataChangeType,"Represents the type of data change in a workbook, such as cell value change, row insertion, or deletion."
+Enums,Excel.DataSourceType,Represents a command type of DataConnection.
+Enums,Excel.DataValidationAlertStyle,Represents the data validation error alert style. The default is Stop.
+Enums,Excel.DataValidationOperator,Represents the data validation operator enum.
+Enums,Excel.DataValidationType,Represents the data validation type enum.
+Enums,Excel.DateFilterCondition,Enum representing all accepted conditions by which a date filter can be applied. Used to configure the type of PivotFilter that is applied to the field.
+Enums,Excel.DeleteShiftDirection,"Specifies the direction to shift cells when a range is deleted, such as up or left."
+Enums,Excel.DocumentPropertyItem,"Represents an individual document property, such as title, author, or custom metadata."
+Enums,Excel.DocumentPropertyType,"Defines the type of document property, such as string, date, or number."
+Enums,Excel.DocumentTaskChangeAction,Represents the type of change recorded in the task change record.
+Enums,Excel.DynamicFilterCriteria,"Specifies criteria for dynamic filters, such as filtering for top items, above average, or specific dates."
+Enums,Excel.EntityCardLayoutType,Types of entity card layouts.
+Enums,Excel.EntityCompactLayoutIcons,"The list of icons available for EntityCompactLayout. An icon displays in the Excel UI, either to the left of the title in a cell that contains an entity card, or to the left of the title of a referenced entity inside an entity card. Selecting the icon opens the entity card."
+Enums,Excel.ErrorCellValueType,Represents the types of the ErrorCellValue object.
+Enums,Excel.ErrorCodes,"Represents various error codes in Excel, such as division by zero or invalid cell reference errors."
+Enums,Excel.EventSource,"Specifies the source of an event, such as a user action or programmatic change."
+Enums,Excel.EventTriggerSource,"Specifies the source that triggered an event, such as a user action or a programmatic change."
+Enums,Excel.EventType,"Represents the type of event that occurred in Excel, such as a change, click, or calculation event."
+Enums,Excel.ExternalErrorCellValueSubType,Represents types of #EXTERNAL! errors.
+Enums,Excel.FieldErrorCellValueSubType,Represents types of #FIELD! errors.
+Enums,Excel.FillPattern,"Defines the pattern used to fill a cell, such as solid, striped, or dotted patterns."
+Enums,Excel.FilterDatetimeSpecificity,"Specifies the level of detail for filtering dates, such as year, month, or day."
+Enums,Excel.FilterOn,"Determines the criteria or type of filtering applied to a range, such as values, top items, or custom."
+Enums,Excel.FilterOperator,"Specifies the operator used in a filter, such as equals, greater than, or less than."
+Enums,Excel.GeometricShapeType,Specifies the shape type for a GeometricShape object.
+Enums,Excel.GroupOption,"Represents options for grouping items in Excel, such as by rows or columns."
+Enums,Excel.HeaderFooterState,"Indicates the state of a header or footer, such as visible, hidden, or very hidden."
+Enums,Excel.HorizontalAlignment,"Specifies the horizontal alignment of content in a cell, such as left, center, or right."
+Enums,Excel.IconSet,"Represents a set of icons used in conditional formatting, such as traffic lights or arrows."
+Enums,Excel.ImageFittingMode,"Defines how an image fits within a shape or cell, such as stretch, fit, or fill."
+Enums,Excel.InsertShiftDirection,Determines the direction in which existing cells will be shifted to accommodate what is being inserted.
+Enums,Excel.KeyboardDirection,"Specifies the direction of keyboard input, such as left-to-right or right-to-left."
+Enums,Excel.LabelFilterCondition,Enum representing all accepted conditions by which a label filter can be applied. Used to configure the type of PivotFilter that is applied to the field. PivotFilter.criteria.exclusive can be set to true to invert many of these conditions.
+Enums,Excel.LinkedDataTypeRefreshMode,Representation of a refresh mode.
+Enums,Excel.LinkedDataTypeState,"Represents the state of a linked data type, such as fetching, connected, or disconnected."
+Enums,Excel.LoadToType,An enum that specifies the query load to destination.
+Enums,Excel.NamedItemScope,"Specifies the scope of a named item, such as workbook or worksheet scope."
+Enums,Excel.NamedItemType,"Defines the type of a named item, such as a range, table, or chart."
+Enums,Excel.NumberFormatCategory,Represents a category of number formats.
+Enums,Excel.NumErrorCellValueSubType,Represents types of #NUM! errors.
+Enums,Excel.PageOrientation,"Represents the page orientation for printing, such as portrait or landscape."
+Enums,Excel.PaperType,"Specifies the paper size for printing, such as A4, Letter, or Legal."
+Enums,Excel.PictureFormat,The format of the image.
+Enums,Excel.PivotAxis,Represents the axis from which to get the PivotItems.
+Enums,Excel.PivotFilterTopBottomCriterion,Represents the criteria for the top/bottom values filter.
+Enums,Excel.PivotFilterType,A simple enum that represents a type of filter for a PivotField.
+Enums,Excel.PivotLayoutType,"Defines the layout type for a PivotTable, such as compact, outline, or tabular."
+Enums,Excel.PivotTableDateGroupBy,Represents the DateTime Grouping condition.
+Enums,Excel.Placement,Specifies the way that an object is attached to its underlying cells.
+Enums,Excel.PrintComments,"Specifies how comments should be printed, such as at the end of the sheet or as displayed."
+Enums,Excel.PrintErrorType,"Determines how errors are displayed when printing, such as blank, error code, or ""N/A""."
+Enums,Excel.PrintMarginUnit,"Represents the unit of measurement for print margins, such as inches or centimeters."
+Enums,Excel.PrintOrder,"Specifies the order in which pages are printed, such as by rows first or by columns first."
+Enums,Excel.ProtectionSelectionMode,"Defines how selection is handled in a protected worksheet, such as allowing selection of locked cells."
+Enums,Excel.QueryError,An enum that specifies the query load error message.
+Enums,Excel.RangeCopyType,"Specifies the type of copy operation for a range, such as values only, formats only, or all."
+Enums,Excel.RangeUnderlineStyle,"Defines the underline style for text in a range, such as single or double underline."
+Enums,Excel.RangeValueType,"Represents the type of value in a range, such as number, text, or formula."
+Enums,Excel.ReadingOrder,"Specifies the reading order for text, such as left-to-right or right-to-left."
+Enums,Excel.ReferenceValueType,Represents the types of the ReferenceValue object.
+Enums,Excel.RefErrorCellValueSubType,Represents types of #REF! errors.
+Enums,Excel.RibbonTab,"Represents a tab on the Excel ribbon interface, where custom commands can be added."
+Enums,Excel.RowHiddenChangeType,"Indicates the type of change to the visibility of rows, such as hidden or unhidden."
+Enums,Excel.SaveBehavior,Specifies the save behavior for Workbook.save.
+Enums,Excel.SearchDirection,Specifies the search direction.
+Enums,Excel.ShapeAutoSize,Determines the type of automatic sizing allowed.
+Enums,Excel.ShapeFillType,Specifies a shape's fill type.
+Enums,Excel.ShapeFontUnderlineStyle,The type of underline applied to a font.
+Enums,Excel.ShapeLineDashStyle,The dash style for a line.
+Enums,Excel.ShapeLineStyle,The style for a line.
+Enums,Excel.ShapeScaleFrom,Specifies which part of the shape retains its position when the shape is scaled.
+Enums,Excel.ShapeScaleType,Specifies whether the shape is scaled relative to its original or current size.
+Enums,Excel.ShapeTextHorizontalAlignment,Specifies the horizontal alignment for the text frame in a shape.
+Enums,Excel.ShapeTextHorizontalOverflow,Specifies the horizontal overflow for the text frame in a shape.
+Enums,Excel.ShapeTextOrientation,Specifies the orientation for the text frame in a shape.
+Enums,Excel.ShapeTextReadingOrder,Specifies the reading order for the text frame in a shape.
+Enums,Excel.ShapeTextVerticalAlignment,Specifies the vertical alignment for the text frame in a shape.
+Enums,Excel.ShapeTextVerticalOverflow,Specifies the vertical overflow for the text frame in a shape.
+Enums,Excel.ShapeType,Specifies the type of a shape.
+Enums,Excel.ShapeZOrder,Specifies where in the z-order a shape should be moved relative to other shapes.
+Enums,Excel.SheetVisibility,"Specifies the visibility of a worksheet, such as visible, hidden, or very hidden."
+Enums,Excel.ShowAsCalculation,The ShowAs calculation function for the DataPivotField.
+Enums,Excel.SlicerSortType,Specifies the slicer sort behavior for Slicer.sortBy.
+Enums,Excel.SortBy,Represents the sort direction.
+Enums,Excel.SortDataOption,"Represents options for sorting data, such as case sensitivity or ignoring diacritics."
+Enums,Excel.SortMethod,Represents the ordering method to be used when sorting Chinese characters.
+Enums,Excel.SortOn,Represents the part of the cell used as the sorting criteria.
+Enums,Excel.SortOrientation,"Defines the orientation of sorting, such as sorting by rows or by columns."
+Enums,Excel.SpecialCellType,"Specifies special types of cells, such as blanks, constants, or formulas."
+Enums,Excel.SpecialCellValueType,"Represents specific types of cell values, such as text, numbers, or errors."
+Enums,Excel.SpillErrorCellValueSubType,Represents types of #SPILL! errors.
+Enums,Excel.SubtotalLocationType,"Specifies where subtotals are displayed, such as at the top or bottom of a group."
+Enums,Excel.TimeoutErrorCellValueSubType,Represents types of #TIMEOUT! errors.
+Enums,Excel.TopBottomSelectionType,"A simple enum for top/bottom filters to select whether to filter by the top N or bottom N percent, number, or sum of values."
+Enums,Excel.ValueErrorCellValueSubType,Represents types of #VALUE! errors.
+Enums,Excel.ValueFilterCondition,Enum representing all accepted conditions by which a value filter can be applied. Used to configure the type of PivotFilter that is applied to the field. PivotFilter.exclusive can be set to true to invert many of these conditions.
+Enums,Excel.VerticalAlignment,"Specifies the vertical alignment of content in a cell, such as top, middle, or bottom."
+Enums,Excel.WorkbookLinksRefreshMode,Represents the refresh mode of the workbook links.
+Enums,Excel.WorksheetPositionType,The position of a worksheet relative to another worksheet or the entire worksheet collection.
+Type Aliases,Excel.CardLayout,Represents the layout of a card in card view.
+Type Aliases,Excel.CardLayoutSection,Represents the layout of a section of a card in card view.
+Type Aliases,Excel.CellValue,Represents the value in a cell.
+Type Aliases,Excel.CellValueAndPropertyMetadata,"Represents the value and metadata of a property. The metadata applies to the property (and not the value), but it is combined with the value in this type."
+Type Aliases,Excel.CompactLayout,Represents the layout used when there is limited space to represent the entity.
+Type Aliases,Excel.EntityPropertyType,Represents the value of a property.
+Type Aliases,Excel.ErrorCellValue,Represents a cell value which contains an error.
+Type Aliases,Excel.ReferencedValue,Represents the value in a cell.
+Interfaces,Excel.Interfaces.HeaderFooterGroupLoadOptions,"Represents the options for loading properties of a HeaderFooterGroup object, allowing specific properties to be retrieved."
+Interfaces,Excel.Interfaces.HeaderFooterLoadOptions,"Represents the options for loading properties of a HeaderFooter object, enabling selective property retrieval."
+Interfaces,Excel.Interfaces.PageBreakCollectionLoadOptions,"Represents the options for loading properties of a PageBreakCollection object, allowing selective data loading."
+Interfaces,Excel.Interfaces.PageBreakLoadOptions,"Represents the options for loading properties of a PageBreak object, enabling selective loading of page break details."
+Interfaces,Excel.Interfaces.RangeCollectionLoadOptions,"Represents the options for loading properties of a RangeCollection object, allowing specific range properties to be loaded."
+Interfaces,Excel.RunOptions,"Represents options for customizing the behavior of the Excel.run function, such as timeout settings or context."
+Interfaces,Excel.Session,"Represents a session in Excel, which can be used to maintain context and settings across multiple API calls."
+Interfaces,Excel.ShowAsRule,"Represents a rule that specifies how a PivotTable value should be displayed, such as showing values as a percentage of the total."
+Interfaces,Excel.AllowEditRangeOptions,The interface used to construct optional fields of the AllowEditRange object.
+Interfaces,Excel.ArrayCellValue,Represents a 2D array of cell values.
+Interfaces,Excel.Base64EncodedImage,The base64 encoding type and data of an image.
+Interfaces,Excel.BasicDataValidation,Represents the basic type data validation criteria.
+Interfaces,Excel.BindingDataChangedEventArgs,Provides information about the binding that raised the data changed event.
+Interfaces,Excel.BindingSelectionChangedEventArgs,Provides information about the selection that raised the selection changed event.
+Interfaces,Excel.BlockedErrorCellValue,Represents the value of a cell containing a #BLOCKED! error.
+Interfaces,Excel.BooleanCellValue,Represents the value of a cell containing a boolean.
+Interfaces,Excel.BusyErrorCellValue,Represents the value of a cell containing a #BUSY! error.
+Interfaces,Excel.CalcErrorCellValue,Represents the value of a cell containing a #CALC! error.
+Interfaces,Excel.CardLayoutListSection,Represents a section of a card that is arranged as a list in card view.
+Interfaces,Excel.CardLayoutPropertyReference,Represents a reference to a property used by the card layout.
+Interfaces,Excel.CardLayoutSectionStandardProperties,Properties of a card layout relevant to most card layouts.
+Interfaces,Excel.CardLayoutStandardProperties,Properties of a card layout relevant to most card layouts.
+Interfaces,Excel.CardLayoutTableSection,Represents a section of a card that is arranged as a table in card view.
+Interfaces,Excel.CellBorder,"Represents the properties of a single border returned by getCellProperties, getRowProperties, and getColumnProperties, or the border property input parameter of setCellProperties, setRowProperties, and setColumnProperties."
+Interfaces,Excel.CellBorderCollection,"Represents the format.borders properties of getCellProperties, getRowProperties, and getColumnProperties, or the format.borders input parameter of setCellProperties, setRowProperties, and setColumnProperties."
+Interfaces,Excel.CellProperties,Represents the returned properties of getCellProperties.
+Interfaces,Excel.CellPropertiesBorderLoadOptions,Specifies which properties to load on the format.borders object.
+Interfaces,Excel.CellPropertiesFill,"Represents the format.fill properties of getCellProperties, getRowProperties, and getColumnProperties or the format.fill input parameter of setCellProperties, setRowProperties, and setColumnProperties."
+Interfaces,Excel.CellPropertiesFillLoadOptions,Specifies which properties to load on the format.fill object.
+Interfaces,Excel.CellPropertiesFont,"Represents the format.font properties of getCellProperties, getRowProperties, and getColumnProperties, or the format.font input parameter of setCellProperties, setRowProperties, and setColumnProperties."
+Interfaces,Excel.CellPropertiesFontLoadOptions,Specifies which properties to load on the format.font object.
+Interfaces,Excel.CellPropertiesFormat,Represents the returned format properties of getCellProperties or format input parameter of setCellProperties.
+Interfaces,Excel.CellPropertiesFormatLoadOptions,Represents which properties to load on the format object.
+Interfaces,Excel.CellPropertiesLoadOptions,"Represents which cell properties to load, when used as part of a ""range.getCellProperties"" method."
+Interfaces,Excel.CellPropertiesProtection,"Represents the format.protection properties of getCellProperties, getRowProperties, and getColumnProperties, or the format.protection input parameter of setCellProperties, setRowProperties, and setColumnProperties."
+Interfaces,Excel.CellValueAttributionAttributes,"The attribution attributes object represents the set of details that can be used to describe where information came from, if the information comes from a public source."
+Interfaces,Excel.CellValueExtraProperties,"These extra properties may appear on a CellValue and provide information about that CellValue, but the extra properties are not part of the value in the cell."
+Interfaces,Excel.CellValuePropertyMetadata,Metadata about a property in EntityCellValue.properties.
+Interfaces,Excel.CellValuePropertyMetadataExclusions,Represents the exclusion of a property in EntityCellValue.properties from features of Excel.
+Interfaces,Excel.CellValueProviderAttributes,The provider attributes object represents the set of details used in card view to provide specified branding information for a CellValue type that supports provider attributes.
+Interfaces,Excel.ChangedEventDetail,Provides information about the details of a WorksheetChangedEvent or TableChangedEvent.
+Interfaces,Excel.ChangeDirectionState,Represents the direction that existing or remaining cells in a worksheet will shift when cells are inserted into or deleted from a worksheet.
+Interfaces,Excel.ChartActivatedEventArgs,Provides information about the chart that raised the activated event.
+Interfaces,Excel.ChartAddedEventArgs,Provides information about the chart that raised the added event.
+Interfaces,Excel.ChartDeactivatedEventArgs,Provides information about the chart that raised the deactivated event.
+Interfaces,Excel.ChartDeletedEventArgs,Provides information about the chart that raised the deleted event.
+Interfaces,Excel.ColumnProperties,Represents the returned properties of getColumnProperties.
+Interfaces,Excel.ColumnPropertiesLoadOptions,"Represents which column properties to load, when used as part of a ""range.getColumnProperties"" method."
+Interfaces,Excel.CommentAddedEventArgs,Provides information about the comments that raised the comment added event.
+Interfaces,Excel.CommentChangedEventArgs,Occurs when existing comments are changed.
+Interfaces,Excel.CommentDeletedEventArgs,Provides information about the comments that raised the comment deleted event.
+Interfaces,Excel.CommentDetail,A structure for the comment ID and IDs of its related replies.
+Interfaces,Excel.CommentMention,Represents the entity that is mentioned in comments.
+Interfaces,Excel.CommentRichContent,"Represents the content contained within a comment or comment reply. Rich content incudes the text string and any other objects contained within the comment body, such as mentions."
+Interfaces,Excel.ConditionalCellValueRule,Represents a cell value conditional format rule.
+Interfaces,Excel.ConditionalColorScaleCriteria,Represents the criteria of the color scale.
+Interfaces,Excel.ConditionalColorScaleCriterion,"Represents a color scale criterion which contains a type, value, and a color."
+Interfaces,Excel.ConditionalDataBarRule,Represents a rule-type for a data bar.
+Interfaces,Excel.ConditionalIconCriterion,"Represents an icon criterion which contains a type, value, an operator, and an optional custom icon, if not using an icon set."
+Interfaces,Excel.ConditionalPresetCriteriaRule,Represents the preset criteria conditional format rule.
+Interfaces,Excel.ConditionalTextComparisonRule,Represents a cell value conditional format rule.
+Interfaces,Excel.ConditionalTopBottomRule,Represents the rule of the top/bottom conditional format.
+Interfaces,Excel.ConnectErrorCellValue,Represents the value of a cell containing a #CONNECT! error.
+Interfaces,Excel.CustomDataValidation,Represents the custom data validation criteria.
+Interfaces,Excel.DataValidationErrorAlert,Represents the error alert properties for the data validation.
+Interfaces,Excel.DataValidationPrompt,Represents the user prompt properties for the data validation.
+Interfaces,Excel.DataValidationRule,A data validation rule contains different types of data validation. You can only use one of them at a time according the Excel.DataValidationType.
+Interfaces,Excel.DateTimeDataValidation,Represents the date data validation criteria.
+Interfaces,Excel.Div0ErrorCellValue,Represents the value of a cell containing a #DIV/0! error.
+Interfaces,Excel.DocumentTaskSchedule,Represents information about a task's schedule.
+Interfaces,Excel.DoubleCellValue,Represents the value of a cell containing a double.
+Interfaces,Excel.EmailIdentity,Represents information about a user's identity.
+Interfaces,Excel.EmptyCellValue,Represents the value of a cell that's empty and has no formulas or data.
+Interfaces,Excel.EntityArrayCardLayout,Represents a card layout that is best used for an array.
+Interfaces,Excel.EntityCardLayout,Represents a card layout that is best used for an array.
+Interfaces,Excel.EntityCellValue,Represents a set of properties without a schema or defined structure.
+Interfaces,Excel.EntityCompactLayout,The compact layout properties for an entity.
+Interfaces,Excel.EntityPropertyExtraProperties,Properties used by CellValueAndPropertyMetadata. These properties refer to the metadata and not to a CellValue.
+Interfaces,Excel.EntityViewLayouts,Represents layout information for various views of the entity.
+Interfaces,Excel.ExternalCodeServiceObjectCellValue,"Represents the value of a cell containing an External Code Service Object, such as Python code formula."
+Interfaces,Excel.ExternalErrorCellValue,Represents the value of a cell containing an #EXTERNAL! error.
+Interfaces,Excel.FieldErrorCellValue,Represents the value of a cell containing a #FIELD! error.
+Interfaces,Excel.FilterCriteria,Represents the filtering criteria applied to a column.
+Interfaces,Excel.FilterDatetime,Represents how to filter a date when filtering on values.
+Interfaces,Excel.FormattedNumberCellValue,"Represents the value of a cell containing a number with a format string. Number format strings must conform to Excel guidelines. To learn more, see Review guidelines for customizing a number format. In this scenario, the format is applied to the value and not to the cell, so the value retains its format string throughout calculation."
+Interfaces,Excel.FormulaChangedEventDetail,Provides information about a changed formula during a formula changed event.
+Interfaces,Excel.GettingDataErrorCellValue,Represents the value of a cell containing a #GETTING_DATA error.
+Interfaces,Excel.Icon,Represents a cell icon.
+Interfaces,Excel.Identity,Represents information about a user's identity.
+Interfaces,Excel.InsertWorksheetOptions,The options that define which worksheets to insert and where in the workbook the new worksheets will be inserted.
+Interfaces,Excel.Interfaces.AllowEditRangeCollectionData,An interface describing the data returned by calling allowEditRangeCollection.toJSON().
+Interfaces,Excel.Interfaces.AllowEditRangeCollectionLoadOptions,"Represents the set of AllowEditRange objects found in a worksheet. AllowEditRange objects work with worksheet protection properties. When worksheet protection is enabled, an AllowEditRange object can be used to allow editing of a specific range, while maintaining protection on the rest of the worksheet."
+Interfaces,Excel.Interfaces.AllowEditRangeCollectionUpdateData,"An interface for updating data on the AllowEditRangeCollection object, for use in allowEditRangeCollection.set({ ... })."
+Interfaces,Excel.Interfaces.AllowEditRangeData,An interface describing the data returned by calling allowEditRange.toJSON().
+Interfaces,Excel.Interfaces.AllowEditRangeLoadOptions,"Represents an AllowEditRange object found in a worksheet. This object works with worksheet protection properties. When worksheet protection is enabled, an AllowEditRange object can be used to allow editing of a specific range, while maintaining protection on the rest of the worksheet."
+Interfaces,Excel.Interfaces.AllowEditRangeUpdateData,"An interface for updating data on the AllowEditRange object, for use in allowEditRange.set({ ... })."
+Interfaces,Excel.Interfaces.ApplicationData,An interface describing the data returned by calling application.toJSON().
+Interfaces,Excel.Interfaces.ApplicationLoadOptions,Represents the Excel application that manages the workbook.
+Interfaces,Excel.Interfaces.ApplicationUpdateData,"An interface for updating data on the Application object, for use in application.set({ ... })."
+Interfaces,Excel.Interfaces.AutoFilterData,An interface describing the data returned by calling autoFilter.toJSON().
+Interfaces,Excel.Interfaces.AutoFilterLoadOptions,Represents the AutoFilter object. AutoFilter turns the values in Excel column into specific filters based on the cell contents.
+Interfaces,Excel.Interfaces.BindingCollectionData,An interface describing the data returned by calling bindingCollection.toJSON().
+Interfaces,Excel.Interfaces.BindingCollectionLoadOptions,Represents the collection of all the binding objects that are part of the workbook.
+Interfaces,Excel.Interfaces.BindingCollectionUpdateData,"An interface for updating data on the BindingCollection object, for use in bindingCollection.set({ ... })."
+Interfaces,Excel.Interfaces.BindingData,An interface describing the data returned by calling binding.toJSON().
+Interfaces,Excel.Interfaces.BindingLoadOptions,Represents an Office.js binding that is defined in the workbook.
+Interfaces,Excel.Interfaces.CellValueConditionalFormatData,An interface describing the data returned by calling cellValueConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.CellValueConditionalFormatLoadOptions,Represents a cell value conditional format.
+Interfaces,Excel.Interfaces.CellValueConditionalFormatUpdateData,"An interface for updating data on the CellValueConditionalFormat object, for use in cellValueConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartAreaFormatData,An interface describing the data returned by calling chartAreaFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartAreaFormatLoadOptions,Encapsulates the format properties for the overall chart area.
+Interfaces,Excel.Interfaces.ChartAreaFormatUpdateData,"An interface for updating data on the ChartAreaFormat object, for use in chartAreaFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartAxesData,An interface describing the data returned by calling chartAxes.toJSON().
+Interfaces,Excel.Interfaces.ChartAxesLoadOptions,Represents the chart axes.
+Interfaces,Excel.Interfaces.ChartAxesUpdateData,"An interface for updating data on the ChartAxes object, for use in chartAxes.set({ ... })."
+Interfaces,Excel.Interfaces.ChartAxisData,An interface describing the data returned by calling chartAxis.toJSON().
+Interfaces,Excel.Interfaces.ChartAxisFormatData,An interface describing the data returned by calling chartAxisFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartAxisFormatLoadOptions,Encapsulates the format properties for the chart axis.
+Interfaces,Excel.Interfaces.ChartAxisFormatUpdateData,"An interface for updating data on the ChartAxisFormat object, for use in chartAxisFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartAxisLoadOptions,Represents a single axis in a chart.
+Interfaces,Excel.Interfaces.ChartAxisTitleData,An interface describing the data returned by calling chartAxisTitle.toJSON().
+Interfaces,Excel.Interfaces.ChartAxisTitleFormatData,An interface describing the data returned by calling chartAxisTitleFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartAxisTitleFormatLoadOptions,Represents the chart axis title formatting.
+Interfaces,Excel.Interfaces.ChartAxisTitleFormatUpdateData,"An interface for updating data on the ChartAxisTitleFormat object, for use in chartAxisTitleFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartAxisTitleLoadOptions,Represents the title of a chart axis.
+Interfaces,Excel.Interfaces.ChartAxisTitleUpdateData,"An interface for updating data on the ChartAxisTitle object, for use in chartAxisTitle.set({ ... })."
+Interfaces,Excel.Interfaces.ChartAxisUpdateData,"An interface for updating data on the ChartAxis object, for use in chartAxis.set({ ... })."
+Interfaces,Excel.Interfaces.ChartBinOptionsData,An interface describing the data returned by calling chartBinOptions.toJSON().
+Interfaces,Excel.Interfaces.ChartBinOptionsLoadOptions,Encapsulates the bin options for histogram charts and pareto charts.
+Interfaces,Excel.Interfaces.ChartBinOptionsUpdateData,"An interface for updating data on the ChartBinOptions object, for use in chartBinOptions.set({ ... })."
+Interfaces,Excel.Interfaces.ChartBorderData,An interface describing the data returned by calling chartBorder.toJSON().
+Interfaces,Excel.Interfaces.ChartBorderLoadOptions,Represents the border formatting of a chart element.
+Interfaces,Excel.Interfaces.ChartBorderUpdateData,"An interface for updating data on the ChartBorder object, for use in chartBorder.set({ ... })."
+Interfaces,Excel.Interfaces.ChartBoxwhiskerOptionsData,An interface describing the data returned by calling chartBoxwhiskerOptions.toJSON().
+Interfaces,Excel.Interfaces.ChartBoxwhiskerOptionsLoadOptions,Represents the properties of a box and whisker chart.
+Interfaces,Excel.Interfaces.ChartBoxwhiskerOptionsUpdateData,"An interface for updating data on the ChartBoxwhiskerOptions object, for use in chartBoxwhiskerOptions.set({ ... })."
+Interfaces,Excel.Interfaces.ChartCollectionData,An interface describing the data returned by calling chartCollection.toJSON().
+Interfaces,Excel.Interfaces.ChartCollectionLoadOptions,A collection of all the chart objects on a worksheet.
+Interfaces,Excel.Interfaces.ChartCollectionUpdateData,"An interface for updating data on the ChartCollection object, for use in chartCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ChartData,An interface describing the data returned by calling chart.toJSON().
+Interfaces,Excel.Interfaces.ChartDataLabelData,An interface describing the data returned by calling chartDataLabel.toJSON().
+Interfaces,Excel.Interfaces.ChartDataLabelFormatData,An interface describing the data returned by calling chartDataLabelFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartDataLabelFormatLoadOptions,Encapsulates the format properties for the chart data labels.
+Interfaces,Excel.Interfaces.ChartDataLabelFormatUpdateData,"An interface for updating data on the ChartDataLabelFormat object, for use in chartDataLabelFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartDataLabelLoadOptions,Represents the data label of a chart point.
+Interfaces,Excel.Interfaces.ChartDataLabelsData,An interface describing the data returned by calling chartDataLabels.toJSON().
+Interfaces,Excel.Interfaces.ChartDataLabelsLoadOptions,Represents a collection of all the data labels on a chart point.
+Interfaces,Excel.Interfaces.ChartDataLabelsUpdateData,"An interface for updating data on the ChartDataLabels object, for use in chartDataLabels.set({ ... })."
+Interfaces,Excel.Interfaces.ChartDataLabelUpdateData,"An interface for updating data on the ChartDataLabel object, for use in chartDataLabel.set({ ... })."
+Interfaces,Excel.Interfaces.ChartDataTableData,An interface describing the data returned by calling chartDataTable.toJSON().
+Interfaces,Excel.Interfaces.ChartDataTableFormatData,An interface describing the data returned by calling chartDataTableFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartDataTableFormatLoadOptions,Represents the format of a chart data table.
+Interfaces,Excel.Interfaces.ChartDataTableFormatUpdateData,"An interface for updating data on the ChartDataTableFormat object, for use in chartDataTableFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartDataTableLoadOptions,Represents the data table object of a chart.
+Interfaces,Excel.Interfaces.ChartDataTableUpdateData,"An interface for updating data on the ChartDataTable object, for use in chartDataTable.set({ ... })."
+Interfaces,Excel.Interfaces.ChartErrorBarsData,An interface describing the data returned by calling chartErrorBars.toJSON().
+Interfaces,Excel.Interfaces.ChartErrorBarsFormatData,An interface describing the data returned by calling chartErrorBarsFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartErrorBarsFormatLoadOptions,Encapsulates the format properties for chart error bars.
+Interfaces,Excel.Interfaces.ChartErrorBarsFormatUpdateData,"An interface for updating data on the ChartErrorBarsFormat object, for use in chartErrorBarsFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartErrorBarsLoadOptions,This object represents the attributes for a chart's error bars.
+Interfaces,Excel.Interfaces.ChartErrorBarsUpdateData,"An interface for updating data on the ChartErrorBars object, for use in chartErrorBars.set({ ... })."
+Interfaces,Excel.Interfaces.ChartFontData,An interface describing the data returned by calling chartFont.toJSON().
+Interfaces,Excel.Interfaces.ChartFontLoadOptions,"This object represents the font attributes (such as font name, font size, and color) for a chart object."
+Interfaces,Excel.Interfaces.ChartFontUpdateData,"An interface for updating data on the ChartFont object, for use in chartFont.set({ ... })."
+Interfaces,Excel.Interfaces.ChartFormatStringData,An interface describing the data returned by calling chartFormatString.toJSON().
+Interfaces,Excel.Interfaces.ChartFormatStringLoadOptions,"Represents the substring in chart related objects that contain text, like a ChartTitle object or ChartAxisTitle object."
+Interfaces,Excel.Interfaces.ChartFormatStringUpdateData,"An interface for updating data on the ChartFormatString object, for use in chartFormatString.set({ ... })."
+Interfaces,Excel.Interfaces.ChartGridlinesData,An interface describing the data returned by calling chartGridlines.toJSON().
+Interfaces,Excel.Interfaces.ChartGridlinesFormatData,An interface describing the data returned by calling chartGridlinesFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartGridlinesFormatLoadOptions,Encapsulates the format properties for chart gridlines.
+Interfaces,Excel.Interfaces.ChartGridlinesFormatUpdateData,"An interface for updating data on the ChartGridlinesFormat object, for use in chartGridlinesFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartGridlinesLoadOptions,Represents major or minor gridlines on a chart axis.
+Interfaces,Excel.Interfaces.ChartGridlinesUpdateData,"An interface for updating data on the ChartGridlines object, for use in chartGridlines.set({ ... })."
+Interfaces,Excel.Interfaces.ChartLegendData,An interface describing the data returned by calling chartLegend.toJSON().
+Interfaces,Excel.Interfaces.ChartLegendEntryCollectionData,An interface describing the data returned by calling chartLegendEntryCollection.toJSON().
+Interfaces,Excel.Interfaces.ChartLegendEntryCollectionLoadOptions,Represents a collection of legend entries.
+Interfaces,Excel.Interfaces.ChartLegendEntryCollectionUpdateData,"An interface for updating data on the ChartLegendEntryCollection object, for use in chartLegendEntryCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ChartLegendEntryData,An interface describing the data returned by calling chartLegendEntry.toJSON().
+Interfaces,Excel.Interfaces.ChartLegendEntryLoadOptions,Represents the legend entry in legendEntryCollection.
+Interfaces,Excel.Interfaces.ChartLegendEntryUpdateData,"An interface for updating data on the ChartLegendEntry object, for use in chartLegendEntry.set({ ... })."
+Interfaces,Excel.Interfaces.ChartLegendFormatData,An interface describing the data returned by calling chartLegendFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartLegendFormatLoadOptions,Encapsulates the format properties of a chart legend.
+Interfaces,Excel.Interfaces.ChartLegendFormatUpdateData,"An interface for updating data on the ChartLegendFormat object, for use in chartLegendFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartLegendLoadOptions,Represents the legend in a chart.
+Interfaces,Excel.Interfaces.ChartLegendUpdateData,"An interface for updating data on the ChartLegend object, for use in chartLegend.set({ ... })."
+Interfaces,Excel.Interfaces.ChartLineFormatData,An interface describing the data returned by calling chartLineFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartLineFormatLoadOptions,Encapsulates the formatting options for line elements.
+Interfaces,Excel.Interfaces.ChartLineFormatUpdateData,"An interface for updating data on the ChartLineFormat object, for use in chartLineFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartLoadOptions,"Represents a chart object in a workbook. To learn more about the chart object model, see Work with charts using the Excel JavaScript API."
+Interfaces,Excel.Interfaces.ChartMapOptionsData,An interface describing the data returned by calling chartMapOptions.toJSON().
+Interfaces,Excel.Interfaces.ChartMapOptionsLoadOptions,Encapsulates the properties for a region map chart.
+Interfaces,Excel.Interfaces.ChartMapOptionsUpdateData,"An interface for updating data on the ChartMapOptions object, for use in chartMapOptions.set({ ... })."
+Interfaces,Excel.Interfaces.ChartPivotOptionsData,An interface describing the data returned by calling chartPivotOptions.toJSON().
+Interfaces,Excel.Interfaces.ChartPivotOptionsLoadOptions,Encapsulates the options for the pivot chart.
+Interfaces,Excel.Interfaces.ChartPivotOptionsUpdateData,"An interface for updating data on the ChartPivotOptions object, for use in chartPivotOptions.set({ ... })."
+Interfaces,Excel.Interfaces.ChartPlotAreaData,An interface describing the data returned by calling chartPlotArea.toJSON().
+Interfaces,Excel.Interfaces.ChartPlotAreaFormatData,An interface describing the data returned by calling chartPlotAreaFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartPlotAreaFormatLoadOptions,Represents the format properties for a chart plot area.
+Interfaces,Excel.Interfaces.ChartPlotAreaFormatUpdateData,"An interface for updating data on the ChartPlotAreaFormat object, for use in chartPlotAreaFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartPlotAreaLoadOptions,This object represents the attributes for a chart plot area.
+Interfaces,Excel.Interfaces.ChartPlotAreaUpdateData,"An interface for updating data on the ChartPlotArea object, for use in chartPlotArea.set({ ... })."
+Interfaces,Excel.Interfaces.ChartPointData,An interface describing the data returned by calling chartPoint.toJSON().
+Interfaces,Excel.Interfaces.ChartPointFormatData,An interface describing the data returned by calling chartPointFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartPointFormatLoadOptions,Represents the formatting object for chart points.
+Interfaces,Excel.Interfaces.ChartPointFormatUpdateData,"An interface for updating data on the ChartPointFormat object, for use in chartPointFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartPointLoadOptions,Represents a point of a series in a chart.
+Interfaces,Excel.Interfaces.ChartPointsCollectionData,An interface describing the data returned by calling chartPointsCollection.toJSON().
+Interfaces,Excel.Interfaces.ChartPointsCollectionLoadOptions,A collection of all the chart points within a series inside a chart.
+Interfaces,Excel.Interfaces.ChartPointsCollectionUpdateData,"An interface for updating data on the ChartPointsCollection object, for use in chartPointsCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ChartPointUpdateData,"An interface for updating data on the ChartPoint object, for use in chartPoint.set({ ... })."
+Interfaces,Excel.Interfaces.ChartSeriesCollectionData,An interface describing the data returned by calling chartSeriesCollection.toJSON().
+Interfaces,Excel.Interfaces.ChartSeriesCollectionLoadOptions,Represents a collection of chart series.
+Interfaces,Excel.Interfaces.ChartSeriesCollectionUpdateData,"An interface for updating data on the ChartSeriesCollection object, for use in chartSeriesCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ChartSeriesData,An interface describing the data returned by calling chartSeries.toJSON().
+Interfaces,Excel.Interfaces.ChartSeriesFormatData,An interface describing the data returned by calling chartSeriesFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartSeriesFormatLoadOptions,Encapsulates the format properties for the chart series
+Interfaces,Excel.Interfaces.ChartSeriesFormatUpdateData,"An interface for updating data on the ChartSeriesFormat object, for use in chartSeriesFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartSeriesLoadOptions,Represents a series in a chart.
+Interfaces,Excel.Interfaces.ChartSeriesUpdateData,"An interface for updating data on the ChartSeries object, for use in chartSeries.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTitleData,An interface describing the data returned by calling chartTitle.toJSON().
+Interfaces,Excel.Interfaces.ChartTitleFormatData,An interface describing the data returned by calling chartTitleFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartTitleFormatLoadOptions,Provides access to the formatting options for a chart title.
+Interfaces,Excel.Interfaces.ChartTitleFormatUpdateData,"An interface for updating data on the ChartTitleFormat object, for use in chartTitleFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTitleLoadOptions,Represents a chart title object of a chart.
+Interfaces,Excel.Interfaces.ChartTitleUpdateData,"An interface for updating data on the ChartTitle object, for use in chartTitle.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTrendlineCollectionData,An interface describing the data returned by calling chartTrendlineCollection.toJSON().
+Interfaces,Excel.Interfaces.ChartTrendlineCollectionLoadOptions,Represents a collection of chart trendlines.
+Interfaces,Excel.Interfaces.ChartTrendlineCollectionUpdateData,"An interface for updating data on the ChartTrendlineCollection object, for use in chartTrendlineCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTrendlineData,An interface describing the data returned by calling chartTrendline.toJSON().
+Interfaces,Excel.Interfaces.ChartTrendlineFormatData,An interface describing the data returned by calling chartTrendlineFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartTrendlineFormatLoadOptions,Represents the format properties for the chart trendline.
+Interfaces,Excel.Interfaces.ChartTrendlineFormatUpdateData,"An interface for updating data on the ChartTrendlineFormat object, for use in chartTrendlineFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTrendlineLabelData,An interface describing the data returned by calling chartTrendlineLabel.toJSON().
+Interfaces,Excel.Interfaces.ChartTrendlineLabelFormatData,An interface describing the data returned by calling chartTrendlineLabelFormat.toJSON().
+Interfaces,Excel.Interfaces.ChartTrendlineLabelFormatLoadOptions,Encapsulates the format properties for the chart trendline label.
+Interfaces,Excel.Interfaces.ChartTrendlineLabelFormatUpdateData,"An interface for updating data on the ChartTrendlineLabelFormat object, for use in chartTrendlineLabelFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTrendlineLabelLoadOptions,This object represents the attributes for a chart trendline label object.
+Interfaces,Excel.Interfaces.ChartTrendlineLabelUpdateData,"An interface for updating data on the ChartTrendlineLabel object, for use in chartTrendlineLabel.set({ ... })."
+Interfaces,Excel.Interfaces.ChartTrendlineLoadOptions,This object represents the attributes for a chart trendline object.
+Interfaces,Excel.Interfaces.ChartTrendlineUpdateData,"An interface for updating data on the ChartTrendline object, for use in chartTrendline.set({ ... })."
+Interfaces,Excel.Interfaces.ChartUpdateData,"An interface for updating data on the Chart object, for use in chart.set({ ... })."
+Interfaces,Excel.Interfaces.CollectionLoadOptions,Provides ways to load properties of only a subset of members of a collection.
+Interfaces,Excel.Interfaces.ColorScaleConditionalFormatData,An interface describing the data returned by calling colorScaleConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.ColorScaleConditionalFormatLoadOptions,Represents the color scale criteria for conditional formatting.
+Interfaces,Excel.Interfaces.ColorScaleConditionalFormatUpdateData,"An interface for updating data on the ColorScaleConditionalFormat object, for use in colorScaleConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.CommentCollectionData,An interface describing the data returned by calling commentCollection.toJSON().
+Interfaces,Excel.Interfaces.CommentCollectionLoadOptions,Represents a collection of comment objects that are part of the workbook.
+Interfaces,Excel.Interfaces.CommentCollectionUpdateData,"An interface for updating data on the CommentCollection object, for use in commentCollection.set({ ... })."
+Interfaces,Excel.Interfaces.CommentData,An interface describing the data returned by calling comment.toJSON().
+Interfaces,Excel.Interfaces.CommentLoadOptions,Represents a comment in the workbook.
+Interfaces,Excel.Interfaces.CommentReplyCollectionData,An interface describing the data returned by calling commentReplyCollection.toJSON().
+Interfaces,Excel.Interfaces.CommentReplyCollectionLoadOptions,Represents a collection of comment reply objects that are part of the comment.
+Interfaces,Excel.Interfaces.CommentReplyCollectionUpdateData,"An interface for updating data on the CommentReplyCollection object, for use in commentReplyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.CommentReplyData,An interface describing the data returned by calling commentReply.toJSON().
+Interfaces,Excel.Interfaces.CommentReplyLoadOptions,Represents a comment reply in the workbook.
+Interfaces,Excel.Interfaces.CommentReplyUpdateData,"An interface for updating data on the CommentReply object, for use in commentReply.set({ ... })."
+Interfaces,Excel.Interfaces.CommentUpdateData,"An interface for updating data on the Comment object, for use in comment.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalDataBarNegativeFormatData,An interface describing the data returned by calling conditionalDataBarNegativeFormat.toJSON().
+Interfaces,Excel.Interfaces.ConditionalDataBarNegativeFormatLoadOptions,Represents a conditional format for the negative side of the data bar.
+Interfaces,Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData,"An interface for updating data on the ConditionalDataBarNegativeFormat object, for use in conditionalDataBarNegativeFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalDataBarPositiveFormatData,An interface describing the data returned by calling conditionalDataBarPositiveFormat.toJSON().
+Interfaces,Excel.Interfaces.ConditionalDataBarPositiveFormatLoadOptions,Represents a conditional format for the positive side of the data bar.
+Interfaces,Excel.Interfaces.ConditionalDataBarPositiveFormatUpdateData,"An interface for updating data on the ConditionalDataBarPositiveFormat object, for use in conditionalDataBarPositiveFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalFormatCollectionData,An interface describing the data returned by calling conditionalFormatCollection.toJSON().
+Interfaces,Excel.Interfaces.ConditionalFormatCollectionLoadOptions,Represents a collection of all the conditional formats that are overlap the range.
+Interfaces,Excel.Interfaces.ConditionalFormatCollectionUpdateData,"An interface for updating data on the ConditionalFormatCollection object, for use in conditionalFormatCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalFormatData,An interface describing the data returned by calling conditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.ConditionalFormatLoadOptions,"An object encapsulating a conditional format's range, format, rule, and other properties. To learn more about the conditional formatting object model, read Apply conditional formatting to Excel ranges."
+Interfaces,Excel.Interfaces.ConditionalFormatRuleData,An interface describing the data returned by calling conditionalFormatRule.toJSON().
+Interfaces,Excel.Interfaces.ConditionalFormatRuleLoadOptions,"Represents a rule, for all traditional rule/format pairings."
+Interfaces,Excel.Interfaces.ConditionalFormatRuleUpdateData,"An interface for updating data on the ConditionalFormatRule object, for use in conditionalFormatRule.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalFormatUpdateData,"An interface for updating data on the ConditionalFormat object, for use in conditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalRangeBorderCollectionData,An interface describing the data returned by calling conditionalRangeBorderCollection.toJSON().
+Interfaces,Excel.Interfaces.ConditionalRangeBorderCollectionLoadOptions,Represents the border objects that make up range border.
+Interfaces,Excel.Interfaces.ConditionalRangeBorderCollectionUpdateData,"An interface for updating data on the ConditionalRangeBorderCollection object, for use in conditionalRangeBorderCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalRangeBorderData,An interface describing the data returned by calling conditionalRangeBorder.toJSON().
+Interfaces,Excel.Interfaces.ConditionalRangeBorderLoadOptions,Represents the border of an object.
+Interfaces,Excel.Interfaces.ConditionalRangeBorderUpdateData,"An interface for updating data on the ConditionalRangeBorder object, for use in conditionalRangeBorder.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalRangeFillData,An interface describing the data returned by calling conditionalRangeFill.toJSON().
+Interfaces,Excel.Interfaces.ConditionalRangeFillLoadOptions,Represents the background of a conditional range object.
+Interfaces,Excel.Interfaces.ConditionalRangeFillUpdateData,"An interface for updating data on the ConditionalRangeFill object, for use in conditionalRangeFill.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalRangeFontData,An interface describing the data returned by calling conditionalRangeFont.toJSON().
+Interfaces,Excel.Interfaces.ConditionalRangeFontLoadOptions,"This object represents the font attributes (font style, color, etc.) for an object."
+Interfaces,Excel.Interfaces.ConditionalRangeFontUpdateData,"An interface for updating data on the ConditionalRangeFont object, for use in conditionalRangeFont.set({ ... })."
+Interfaces,Excel.Interfaces.ConditionalRangeFormatData,An interface describing the data returned by calling conditionalRangeFormat.toJSON().
+Interfaces,Excel.Interfaces.ConditionalRangeFormatLoadOptions,"A format object encapsulating the conditional formats range's font, fill, borders, and other properties."
+Interfaces,Excel.Interfaces.ConditionalRangeFormatUpdateData,"An interface for updating data on the ConditionalRangeFormat object, for use in conditionalRangeFormat.set({ ... })."
+Interfaces,Excel.Interfaces.CultureInfoData,An interface describing the data returned by calling cultureInfo.toJSON().
+Interfaces,Excel.Interfaces.CultureInfoLoadOptions,"Provides information based on current system culture settings. This includes the culture names, number formatting, and other culturally dependent settings."
+Interfaces,Excel.Interfaces.CustomConditionalFormatData,An interface describing the data returned by calling customConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.CustomConditionalFormatLoadOptions,Represents a custom conditional format type.
+Interfaces,Excel.Interfaces.CustomConditionalFormatUpdateData,"An interface for updating data on the CustomConditionalFormat object, for use in customConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.CustomPropertyCollectionData,An interface describing the data returned by calling customPropertyCollection.toJSON().
+Interfaces,Excel.Interfaces.CustomPropertyCollectionLoadOptions,Contains the collection of custom properties.
+Interfaces,Excel.Interfaces.CustomPropertyCollectionUpdateData,"An interface for updating data on the CustomPropertyCollection object, for use in customPropertyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.CustomPropertyData,An interface describing the data returned by calling customProperty.toJSON().
+Interfaces,Excel.Interfaces.CustomPropertyLoadOptions,Represents a custom property.
+Interfaces,Excel.Interfaces.CustomPropertyUpdateData,"An interface for updating data on the CustomProperty object, for use in customProperty.set({ ... })."
+Interfaces,Excel.Interfaces.CustomXmlPartCollectionData,An interface describing the data returned by calling customXmlPartCollection.toJSON().
+Interfaces,Excel.Interfaces.CustomXmlPartCollectionLoadOptions,A collection of custom XML parts.
+Interfaces,Excel.Interfaces.CustomXmlPartCollectionUpdateData,"An interface for updating data on the CustomXmlPartCollection object, for use in customXmlPartCollection.set({ ... })."
+Interfaces,Excel.Interfaces.CustomXmlPartData,An interface describing the data returned by calling customXmlPart.toJSON().
+Interfaces,Excel.Interfaces.CustomXmlPartLoadOptions,Represents a custom XML part object in a workbook.
+Interfaces,Excel.Interfaces.CustomXmlPartScopedCollectionData,An interface describing the data returned by calling customXmlPartScopedCollection.toJSON().
+Interfaces,Excel.Interfaces.CustomXmlPartScopedCollectionLoadOptions,"A scoped collection of custom XML parts. A scoped collection is the result of some operation (e.g., filtering by namespace). A scoped collection cannot be scoped any further."
+Interfaces,Excel.Interfaces.CustomXmlPartScopedCollectionUpdateData,"An interface for updating data on the CustomXmlPartScopedCollection object, for use in customXmlPartScopedCollection.set({ ... })."
+Interfaces,Excel.Interfaces.DataBarConditionalFormatData,An interface describing the data returned by calling dataBarConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.DataBarConditionalFormatLoadOptions,Represents an Excel conditional data bar type.
+Interfaces,Excel.Interfaces.DataBarConditionalFormatUpdateData,"An interface for updating data on the DataBarConditionalFormat object, for use in dataBarConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.DataPivotHierarchyCollectionData,An interface describing the data returned by calling dataPivotHierarchyCollection.toJSON().
+Interfaces,Excel.Interfaces.DataPivotHierarchyCollectionLoadOptions,Represents a collection of DataPivotHierarchy items associated with the PivotTable.
+Interfaces,Excel.Interfaces.DataPivotHierarchyCollectionUpdateData,"An interface for updating data on the DataPivotHierarchyCollection object, for use in dataPivotHierarchyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.DataPivotHierarchyData,An interface describing the data returned by calling dataPivotHierarchy.toJSON().
+Interfaces,Excel.Interfaces.DataPivotHierarchyLoadOptions,Represents the Excel DataPivotHierarchy.
+Interfaces,Excel.Interfaces.DataPivotHierarchyUpdateData,"An interface for updating data on the DataPivotHierarchy object, for use in dataPivotHierarchy.set({ ... })."
+Interfaces,Excel.Interfaces.DataValidationData,An interface describing the data returned by calling dataValidation.toJSON().
+Interfaces,Excel.Interfaces.DataValidationLoadOptions,"Represents the data validation applied to the current range. To learn more about the data validation object model, read Add data validation to Excel ranges."
+Interfaces,Excel.Interfaces.DataValidationUpdateData,"An interface for updating data on the DataValidation object, for use in dataValidation.set({ ... })."
+Interfaces,Excel.Interfaces.DatetimeFormatInfoData,An interface describing the data returned by calling datetimeFormatInfo.toJSON().
+Interfaces,Excel.Interfaces.DatetimeFormatInfoLoadOptions,Defines the culturally appropriate format of displaying numbers. This is based on current system culture settings.
+Interfaces,Excel.Interfaces.DocumentPropertiesData,An interface describing the data returned by calling documentProperties.toJSON().
+Interfaces,Excel.Interfaces.DocumentPropertiesLoadOptions,Represents workbook properties.
+Interfaces,Excel.Interfaces.DocumentPropertiesUpdateData,"An interface for updating data on the DocumentProperties object, for use in documentProperties.set({ ... })."
+Interfaces,Excel.Interfaces.DocumentTaskChangeCollectionData,An interface describing the data returned by calling documentTaskChangeCollection.toJSON().
+Interfaces,Excel.Interfaces.DocumentTaskChangeCollectionLoadOptions,Represents a collection of change records for a task.
+Interfaces,Excel.Interfaces.DocumentTaskChangeCollectionUpdateData,"An interface for updating data on the DocumentTaskChangeCollection object, for use in documentTaskChangeCollection.set({ ... })."
+Interfaces,Excel.Interfaces.DocumentTaskChangeData,An interface describing the data returned by calling documentTaskChange.toJSON().
+Interfaces,Excel.Interfaces.DocumentTaskChangeLoadOptions,Represents a recorded change to the task.
+Interfaces,Excel.Interfaces.DocumentTaskCollectionData,An interface describing the data returned by calling documentTaskCollection.toJSON().
+Interfaces,Excel.Interfaces.DocumentTaskCollectionLoadOptions,Represents a collection of tasks.
+Interfaces,Excel.Interfaces.DocumentTaskCollectionUpdateData,"An interface for updating data on the DocumentTaskCollection object, for use in documentTaskCollection.set({ ... })."
+Interfaces,Excel.Interfaces.DocumentTaskData,An interface describing the data returned by calling documentTask.toJSON().
+Interfaces,Excel.Interfaces.DocumentTaskLoadOptions,Represents a task.
+Interfaces,Excel.Interfaces.DocumentTaskUpdateData,"An interface for updating data on the DocumentTask object, for use in documentTask.set({ ... })."
+Interfaces,Excel.Interfaces.FilterData,An interface describing the data returned by calling filter.toJSON().
+Interfaces,Excel.Interfaces.FilterLoadOptions,Manages the filtering of a table's column.
+Interfaces,Excel.Interfaces.FilterPivotHierarchyCollectionData,An interface describing the data returned by calling filterPivotHierarchyCollection.toJSON().
+Interfaces,Excel.Interfaces.FilterPivotHierarchyCollectionLoadOptions,Represents a collection of FilterPivotHierarchy items associated with the PivotTable.
+Interfaces,Excel.Interfaces.FilterPivotHierarchyCollectionUpdateData,"An interface for updating data on the FilterPivotHierarchyCollection object, for use in filterPivotHierarchyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.FilterPivotHierarchyData,An interface describing the data returned by calling filterPivotHierarchy.toJSON().
+Interfaces,Excel.Interfaces.FilterPivotHierarchyLoadOptions,Represents the Excel FilterPivotHierarchy.
+Interfaces,Excel.Interfaces.FilterPivotHierarchyUpdateData,"An interface for updating data on the FilterPivotHierarchy object, for use in filterPivotHierarchy.set({ ... })."
+Interfaces,Excel.Interfaces.FormatProtectionData,An interface describing the data returned by calling formatProtection.toJSON().
+Interfaces,Excel.Interfaces.FormatProtectionLoadOptions,Represents the format protection of a range object.
+Interfaces,Excel.Interfaces.FormatProtectionUpdateData,"An interface for updating data on the FormatProtection object, for use in formatProtection.set({ ... })."
+Interfaces,Excel.Interfaces.FunctionResultData,An interface describing the data returned by calling functionResult.toJSON().
+Interfaces,Excel.Interfaces.FunctionResultLoadOptions,An object containing the result of a function-evaluation operation
+Interfaces,Excel.Interfaces.GeometricShapeData,An interface describing the data returned by calling geometricShape.toJSON().
+Interfaces,Excel.Interfaces.GeometricShapeLoadOptions,"Represents a geometric shape inside a worksheet. A geometric shape can be a rectangle, block arrow, equation symbol, flowchart item, star, banner, callout, or any other basic shape in Excel."
+Interfaces,Excel.Interfaces.GroupShapeCollectionData,An interface describing the data returned by calling groupShapeCollection.toJSON().
+Interfaces,Excel.Interfaces.GroupShapeCollectionLoadOptions,Represents the shape collection inside a shape group.
+Interfaces,Excel.Interfaces.GroupShapeCollectionUpdateData,"An interface for updating data on the GroupShapeCollection object, for use in groupShapeCollection.set({ ... })."
+Interfaces,Excel.Interfaces.HeaderFooterData,An interface describing the data returned by calling headerFooter.toJSON().
+Interfaces,Excel.Interfaces.HeaderFooterGroupData,An interface describing the data returned by calling headerFooterGroup.toJSON().
+Interfaces,Excel.Interfaces.HeaderFooterGroupUpdateData,"An interface for updating data on the HeaderFooterGroup object, for use in headerFooterGroup.set({ ... })."
+Interfaces,Excel.Interfaces.HeaderFooterUpdateData,"An interface for updating data on the HeaderFooter object, for use in headerFooter.set({ ... })."
+Interfaces,Excel.Interfaces.IconSetConditionalFormatData,An interface describing the data returned by calling iconSetConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.IconSetConditionalFormatLoadOptions,Represents an icon set criteria for conditional formatting.
+Interfaces,Excel.Interfaces.IconSetConditionalFormatUpdateData,"An interface for updating data on the IconSetConditionalFormat object, for use in iconSetConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ImageData,An interface describing the data returned by calling image.toJSON().
+Interfaces,Excel.Interfaces.ImageLoadOptions,"Represents an image in the worksheet. To get the corresponding Shape object, use Image.shape."
+Interfaces,Excel.Interfaces.IterativeCalculationData,An interface describing the data returned by calling iterativeCalculation.toJSON().
+Interfaces,Excel.Interfaces.IterativeCalculationLoadOptions,Represents the iterative calculation settings.
+Interfaces,Excel.Interfaces.IterativeCalculationUpdateData,"An interface for updating data on the IterativeCalculation object, for use in iterativeCalculation.set({ ... })."
+Interfaces,Excel.Interfaces.LineData,An interface describing the data returned by calling line.toJSON().
+Interfaces,Excel.Interfaces.LineLoadOptions,"Represents a line inside a worksheet. To get the corresponding Shape object, use Line.shape."
+Interfaces,Excel.Interfaces.LineUpdateData,"An interface for updating data on the Line object, for use in line.set({ ... })."
+Interfaces,Excel.Interfaces.LinkedDataTypeCollectionData,An interface describing the data returned by calling linkedDataTypeCollection.toJSON().
+Interfaces,Excel.Interfaces.LinkedDataTypeCollectionLoadOptions,Represents a collection of linked data types.
+Interfaces,Excel.Interfaces.LinkedDataTypeCollectionUpdateData,"An interface for updating data on the LinkedDataTypeCollection object, for use in linkedDataTypeCollection.set({ ... })."
+Interfaces,Excel.Interfaces.LinkedDataTypeData,An interface describing the data returned by calling linkedDataType.toJSON().
+Interfaces,Excel.Interfaces.LinkedDataTypeLoadOptions,Represents a linked data type. A linked data type is a data type connected to an online data source.
+Interfaces,Excel.Interfaces.LinkedWorkbookCollectionData,An interface describing the data returned by calling linkedWorkbookCollection.toJSON().
+Interfaces,Excel.Interfaces.LinkedWorkbookCollectionLoadOptions,Represents a collection of linked workbook objects.
+Interfaces,Excel.Interfaces.LinkedWorkbookCollectionUpdateData,"An interface for updating data on the LinkedWorkbookCollection object, for use in linkedWorkbookCollection.set({ ... })."
+Interfaces,Excel.Interfaces.LinkedWorkbookData,An interface describing the data returned by calling linkedWorkbook.toJSON().
+Interfaces,Excel.Interfaces.LinkedWorkbookLoadOptions,"Contains information about a linked workbook. If a workbook has links pointing to data in another workbook, the second workbook is linked to the first workbook. In this scenario, the second workbook is called the ""linked workbook""."
+Interfaces,Excel.Interfaces.NamedItemArrayValuesData,An interface describing the data returned by calling namedItemArrayValues.toJSON().
+Interfaces,Excel.Interfaces.NamedItemArrayValuesLoadOptions,Represents an object containing values and types of a named item.
+Interfaces,Excel.Interfaces.NamedItemCollectionData,An interface describing the data returned by calling namedItemCollection.toJSON().
+Interfaces,Excel.Interfaces.NamedItemCollectionLoadOptions,"A collection of all the NamedItem objects that are part of the workbook or worksheet, depending on how it was reached."
+Interfaces,Excel.Interfaces.NamedItemCollectionUpdateData,"An interface for updating data on the NamedItemCollection object, for use in namedItemCollection.set({ ... })."
+Interfaces,Excel.Interfaces.NamedItemData,An interface describing the data returned by calling namedItem.toJSON().
+Interfaces,Excel.Interfaces.NamedItemLoadOptions,"Represents a defined name for a range of cells or value. Names can be primitive named objects (as seen in the type below), range object, or a reference to a range. This object can be used to obtain range object associated with names."
+Interfaces,Excel.Interfaces.NamedItemUpdateData,"An interface for updating data on the NamedItem object, for use in namedItem.set({ ... })."
+Interfaces,Excel.Interfaces.NamedSheetViewCollectionData,An interface describing the data returned by calling namedSheetViewCollection.toJSON().
+Interfaces,Excel.Interfaces.NamedSheetViewCollectionLoadOptions,Represents the collection of sheet views in the worksheet.
+Interfaces,Excel.Interfaces.NamedSheetViewCollectionUpdateData,"An interface for updating data on the NamedSheetViewCollection object, for use in namedSheetViewCollection.set({ ... })."
+Interfaces,Excel.Interfaces.NamedSheetViewData,An interface describing the data returned by calling namedSheetView.toJSON().
+Interfaces,Excel.Interfaces.NamedSheetViewLoadOptions,"Represents a named sheet view of a worksheet. A sheet view stores the sort and filter rules for a particular worksheet. Every sheet view (even a temporary sheet view) has a unique, worksheet-scoped name that is used to access the view."
+Interfaces,Excel.Interfaces.NamedSheetViewUpdateData,"An interface for updating data on the NamedSheetView object, for use in namedSheetView.set({ ... })."
+Interfaces,Excel.Interfaces.NumberFormatInfoData,An interface describing the data returned by calling numberFormatInfo.toJSON().
+Interfaces,Excel.Interfaces.NumberFormatInfoLoadOptions,Defines the culturally appropriate format of displaying numbers. This is based on current system culture settings.
+Interfaces,Excel.Interfaces.PageBreakCollectionData,An interface describing the data returned by calling pageBreakCollection.toJSON().
+Interfaces,Excel.Interfaces.PageBreakCollectionUpdateData,"An interface for updating data on the PageBreakCollection object, for use in pageBreakCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PageBreakData,An interface describing the data returned by calling pageBreak.toJSON().
+Interfaces,Excel.Interfaces.PageLayoutData,An interface describing the data returned by calling pageLayout.toJSON().
+Interfaces,Excel.Interfaces.PageLayoutLoadOptions,"Represents layout and print settings that are not dependent on any printer-specific implementation. These settings include margins, orientation, page numbering, title rows, and print area."
+Interfaces,Excel.Interfaces.PageLayoutUpdateData,"An interface for updating data on the PageLayout object, for use in pageLayout.set({ ... })."
+Interfaces,Excel.Interfaces.PivotFieldCollectionData,An interface describing the data returned by calling pivotFieldCollection.toJSON().
+Interfaces,Excel.Interfaces.PivotFieldCollectionLoadOptions,Represents a collection of all the PivotFields that are part of a PivotTable's hierarchy.
+Interfaces,Excel.Interfaces.PivotFieldCollectionUpdateData,"An interface for updating data on the PivotFieldCollection object, for use in pivotFieldCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PivotFieldData,An interface describing the data returned by calling pivotField.toJSON().
+Interfaces,Excel.Interfaces.PivotFieldLoadOptions,Represents the Excel PivotField.
+Interfaces,Excel.Interfaces.PivotFieldUpdateData,"An interface for updating data on the PivotField object, for use in pivotField.set({ ... })."
+Interfaces,Excel.Interfaces.PivotHierarchyCollectionData,An interface describing the data returned by calling pivotHierarchyCollection.toJSON().
+Interfaces,Excel.Interfaces.PivotHierarchyCollectionLoadOptions,Represents a collection of all the PivotHierarchies that are part of the PivotTable.
+Interfaces,Excel.Interfaces.PivotHierarchyCollectionUpdateData,"An interface for updating data on the PivotHierarchyCollection object, for use in pivotHierarchyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PivotHierarchyData,An interface describing the data returned by calling pivotHierarchy.toJSON().
+Interfaces,Excel.Interfaces.PivotHierarchyLoadOptions,Represents the Excel PivotHierarchy.
+Interfaces,Excel.Interfaces.PivotHierarchyUpdateData,"An interface for updating data on the PivotHierarchy object, for use in pivotHierarchy.set({ ... })."
+Interfaces,Excel.Interfaces.PivotItemCollectionData,An interface describing the data returned by calling pivotItemCollection.toJSON().
+Interfaces,Excel.Interfaces.PivotItemCollectionLoadOptions,Represents a collection of all the PivotItems related to their parent PivotField.
+Interfaces,Excel.Interfaces.PivotItemCollectionUpdateData,"An interface for updating data on the PivotItemCollection object, for use in pivotItemCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PivotItemData,An interface describing the data returned by calling pivotItem.toJSON().
+Interfaces,Excel.Interfaces.PivotItemLoadOptions,Represents the Excel PivotItem.
+Interfaces,Excel.Interfaces.PivotItemUpdateData,"An interface for updating data on the PivotItem object, for use in pivotItem.set({ ... })."
+Interfaces,Excel.Interfaces.PivotLayoutData,An interface describing the data returned by calling pivotLayout.toJSON().
+Interfaces,Excel.Interfaces.PivotLayoutLoadOptions,Represents the visual layout of the PivotTable.
+Interfaces,Excel.Interfaces.PivotLayoutUpdateData,"An interface for updating data on the PivotLayout object, for use in pivotLayout.set({ ... })."
+Interfaces,Excel.Interfaces.PivotTableCollectionData,An interface describing the data returned by calling pivotTableCollection.toJSON().
+Interfaces,Excel.Interfaces.PivotTableCollectionLoadOptions,Represents a collection of all the PivotTables that are part of the workbook or worksheet.
+Interfaces,Excel.Interfaces.PivotTableCollectionUpdateData,"An interface for updating data on the PivotTableCollection object, for use in pivotTableCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PivotTableData,An interface describing the data returned by calling pivotTable.toJSON().
+Interfaces,Excel.Interfaces.PivotTableLoadOptions,"Represents an Excel PivotTable. To learn more about the PivotTable object model, read Work with PivotTables using the Excel JavaScript API."
+Interfaces,Excel.Interfaces.PivotTableScopedCollectionData,An interface describing the data returned by calling pivotTableScopedCollection.toJSON().
+Interfaces,Excel.Interfaces.PivotTableScopedCollectionLoadOptions,Represents a scoped collection of PivotTables. The PivotTables are sorted based on the location of the PivotTable's top-left corner. They are ordered top-to-bottom and then left-to-right.
+Interfaces,Excel.Interfaces.PivotTableScopedCollectionUpdateData,"An interface for updating data on the PivotTableScopedCollection object, for use in pivotTableScopedCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PivotTableStyleCollectionData,An interface describing the data returned by calling pivotTableStyleCollection.toJSON().
+Interfaces,Excel.Interfaces.PivotTableStyleCollectionLoadOptions,Represents a collection of PivotTable styles.
+Interfaces,Excel.Interfaces.PivotTableStyleCollectionUpdateData,"An interface for updating data on the PivotTableStyleCollection object, for use in pivotTableStyleCollection.set({ ... })."
+Interfaces,Excel.Interfaces.PivotTableStyleData,An interface describing the data returned by calling pivotTableStyle.toJSON().
+Interfaces,Excel.Interfaces.PivotTableStyleLoadOptions,"Represents a PivotTable style, which defines style elements by PivotTable region."
+Interfaces,Excel.Interfaces.PivotTableStyleUpdateData,"An interface for updating data on the PivotTableStyle object, for use in pivotTableStyle.set({ ... })."
+Interfaces,Excel.Interfaces.PivotTableUpdateData,"An interface for updating data on the PivotTable object, for use in pivotTable.set({ ... })."
+Interfaces,Excel.Interfaces.PresetCriteriaConditionalFormatData,An interface describing the data returned by calling presetCriteriaConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.PresetCriteriaConditionalFormatLoadOptions,"Represents the preset criteria conditional format such as above average, below average, unique values, contains blank, nonblank, error, and noerror."
+Interfaces,Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData,"An interface for updating data on the PresetCriteriaConditionalFormat object, for use in presetCriteriaConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.QueryCollectionData,An interface describing the data returned by calling queryCollection.toJSON().
+Interfaces,Excel.Interfaces.QueryCollectionLoadOptions,Represents the collection of queries in the workbook.
+Interfaces,Excel.Interfaces.QueryCollectionUpdateData,"An interface for updating data on the QueryCollection object, for use in queryCollection.set({ ... })."
+Interfaces,Excel.Interfaces.QueryData,An interface describing the data returned by calling query.toJSON().
+Interfaces,Excel.Interfaces.QueryLoadOptions,Represents a Power Query query.
+Interfaces,Excel.Interfaces.RangeAreasCollectionData,An interface describing the data returned by calling rangeAreasCollection.toJSON().
+Interfaces,Excel.Interfaces.RangeAreasCollectionLoadOptions,Contains the collection of cross-workbook level ranges.
+Interfaces,Excel.Interfaces.RangeAreasCollectionUpdateData,"An interface for updating data on the RangeAreasCollection object, for use in rangeAreasCollection.set({ ... })."
+Interfaces,Excel.Interfaces.RangeAreasData,An interface describing the data returned by calling rangeAreas.toJSON().
+Interfaces,Excel.Interfaces.RangeAreasLoadOptions,"RangeAreas represents a collection of one or more rectangular ranges in the same worksheet. To learn how to use discontiguous ranges, read Work with multiple ranges simultaneously in Excel add-ins."
+Interfaces,Excel.Interfaces.RangeAreasUpdateData,"An interface for updating data on the RangeAreas object, for use in rangeAreas.set({ ... })."
+Interfaces,Excel.Interfaces.RangeBorderCollectionData,An interface describing the data returned by calling rangeBorderCollection.toJSON().
+Interfaces,Excel.Interfaces.RangeBorderCollectionLoadOptions,Represents the border objects that make up the range border.
+Interfaces,Excel.Interfaces.RangeBorderCollectionUpdateData,"An interface for updating data on the RangeBorderCollection object, for use in rangeBorderCollection.set({ ... })."
+Interfaces,Excel.Interfaces.RangeBorderData,An interface describing the data returned by calling rangeBorder.toJSON().
+Interfaces,Excel.Interfaces.RangeBorderLoadOptions,Represents the border of an object.
+Interfaces,Excel.Interfaces.RangeBorderUpdateData,"An interface for updating data on the RangeBorder object, for use in rangeBorder.set({ ... })."
+Interfaces,Excel.Interfaces.RangeCollectionData,An interface describing the data returned by calling rangeCollection.toJSON().
+Interfaces,Excel.Interfaces.RangeCollectionUpdateData,"An interface for updating data on the RangeCollection object, for use in rangeCollection.set({ ... })."
+Interfaces,Excel.Interfaces.RangeData,An interface describing the data returned by calling range.toJSON().
+Interfaces,Excel.Interfaces.RangeFillData,An interface describing the data returned by calling rangeFill.toJSON().
+Interfaces,Excel.Interfaces.RangeFillLoadOptions,Represents the background of a range object.
+Interfaces,Excel.Interfaces.RangeFillUpdateData,"An interface for updating data on the RangeFill object, for use in rangeFill.set({ ... })."
+Interfaces,Excel.Interfaces.RangeFontData,An interface describing the data returned by calling rangeFont.toJSON().
+Interfaces,Excel.Interfaces.RangeFontLoadOptions,"This object represents the font attributes (font name, font size, color, etc.) for an object."
+Interfaces,Excel.Interfaces.RangeFontUpdateData,"An interface for updating data on the RangeFont object, for use in rangeFont.set({ ... })."
+Interfaces,Excel.Interfaces.RangeFormatData,An interface describing the data returned by calling rangeFormat.toJSON().
+Interfaces,Excel.Interfaces.RangeFormatLoadOptions,"A format object encapsulating the range's font, fill, borders, alignment, and other properties."
+Interfaces,Excel.Interfaces.RangeFormatUpdateData,"An interface for updating data on the RangeFormat object, for use in rangeFormat.set({ ... })."
+Interfaces,Excel.Interfaces.RangeLoadOptions,"Range represents a set of one or more contiguous cells such as a cell, a row, a column, or a block of cells. To learn more about how ranges are used throughout the API, start with Ranges in the Excel JavaScript API."
+Interfaces,Excel.Interfaces.RangeUpdateData,"An interface for updating data on the Range object, for use in range.set({ ... })."
+Interfaces,Excel.Interfaces.RangeViewCollectionData,An interface describing the data returned by calling rangeViewCollection.toJSON().
+Interfaces,Excel.Interfaces.RangeViewCollectionLoadOptions,Represents a collection of RangeView objects.
+Interfaces,Excel.Interfaces.RangeViewCollectionUpdateData,"An interface for updating data on the RangeViewCollection object, for use in rangeViewCollection.set({ ... })."
+Interfaces,Excel.Interfaces.RangeViewData,An interface describing the data returned by calling rangeView.toJSON().
+Interfaces,Excel.Interfaces.RangeViewLoadOptions,RangeView represents a set of visible cells of the parent range.
+Interfaces,Excel.Interfaces.RangeViewUpdateData,"An interface for updating data on the RangeView object, for use in rangeView.set({ ... })."
+Interfaces,Excel.Interfaces.RemoveDuplicatesResultData,An interface describing the data returned by calling removeDuplicatesResult.toJSON().
+Interfaces,Excel.Interfaces.RemoveDuplicatesResultLoadOptions,Represents the results from Range.removeDuplicates.
+Interfaces,Excel.Interfaces.RowColumnPivotHierarchyCollectionData,An interface describing the data returned by calling rowColumnPivotHierarchyCollection.toJSON().
+Interfaces,Excel.Interfaces.RowColumnPivotHierarchyCollectionLoadOptions,Represents a collection of RowColumnPivotHierarchy items associated with the PivotTable.
+Interfaces,Excel.Interfaces.RowColumnPivotHierarchyCollectionUpdateData,"An interface for updating data on the RowColumnPivotHierarchyCollection object, for use in rowColumnPivotHierarchyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.RowColumnPivotHierarchyData,An interface describing the data returned by calling rowColumnPivotHierarchy.toJSON().
+Interfaces,Excel.Interfaces.RowColumnPivotHierarchyLoadOptions,Represents the Excel RowColumnPivotHierarchy.
+Interfaces,Excel.Interfaces.RowColumnPivotHierarchyUpdateData,"An interface for updating data on the RowColumnPivotHierarchy object, for use in rowColumnPivotHierarchy.set({ ... })."
+Interfaces,Excel.Interfaces.RuntimeData,An interface describing the data returned by calling runtime.toJSON().
+Interfaces,Excel.Interfaces.RuntimeLoadOptions,Represents the Excel Runtime class.
+Interfaces,Excel.Interfaces.RuntimeUpdateData,"An interface for updating data on the Runtime object, for use in runtime.set({ ... })."
+Interfaces,Excel.Interfaces.SettingCollectionData,An interface describing the data returned by calling settingCollection.toJSON().
+Interfaces,Excel.Interfaces.SettingCollectionLoadOptions,Represents a collection of key-value pair setting objects that are part of the workbook. The scope is limited to per file and add-in (task-pane or content) combination.
+Interfaces,Excel.Interfaces.SettingCollectionUpdateData,"An interface for updating data on the SettingCollection object, for use in settingCollection.set({ ... })."
+Interfaces,Excel.Interfaces.SettingData,An interface describing the data returned by calling setting.toJSON().
+Interfaces,Excel.Interfaces.SettingLoadOptions,"Setting represents a key-value pair of a setting persisted to the document (per file, per add-in). These custom key-value pair can be used to store state or lifecycle information needed by the content or task-pane add-in. Note that settings are persisted in the document and hence it is not a place to store any sensitive or protected information such as user information and password."
+Interfaces,Excel.Interfaces.SettingUpdateData,"An interface for updating data on the Setting object, for use in setting.set({ ... })."
+Interfaces,Excel.Interfaces.ShapeCollectionData,An interface describing the data returned by calling shapeCollection.toJSON().
+Interfaces,Excel.Interfaces.ShapeCollectionLoadOptions,Represents a collection of all the shapes in the worksheet.
+Interfaces,Excel.Interfaces.ShapeCollectionUpdateData,"An interface for updating data on the ShapeCollection object, for use in shapeCollection.set({ ... })."
+Interfaces,Excel.Interfaces.ShapeData,An interface describing the data returned by calling shape.toJSON().
+Interfaces,Excel.Interfaces.ShapeFillData,An interface describing the data returned by calling shapeFill.toJSON().
+Interfaces,Excel.Interfaces.ShapeFillLoadOptions,Represents the fill formatting of a shape object.
+Interfaces,Excel.Interfaces.ShapeFillUpdateData,"An interface for updating data on the ShapeFill object, for use in shapeFill.set({ ... })."
+Interfaces,Excel.Interfaces.ShapeFontData,An interface describing the data returned by calling shapeFont.toJSON().
+Interfaces,Excel.Interfaces.ShapeFontLoadOptions,"Represents the font attributes, such as font name, font size, and color, for a shape's TextRange object."
+Interfaces,Excel.Interfaces.ShapeFontUpdateData,"An interface for updating data on the ShapeFont object, for use in shapeFont.set({ ... })."
+Interfaces,Excel.Interfaces.ShapeGroupData,An interface describing the data returned by calling shapeGroup.toJSON().
+Interfaces,Excel.Interfaces.ShapeGroupLoadOptions,"Represents a shape group inside a worksheet. To get the corresponding Shape object, use ShapeGroup.shape."
+Interfaces,Excel.Interfaces.ShapeLineFormatData,An interface describing the data returned by calling shapeLineFormat.toJSON().
+Interfaces,Excel.Interfaces.ShapeLineFormatLoadOptions,"Represents the line formatting for the shape object. For images and geometric shapes, line formatting represents the border of the shape."
+Interfaces,Excel.Interfaces.ShapeLineFormatUpdateData,"An interface for updating data on the ShapeLineFormat object, for use in shapeLineFormat.set({ ... })."
+Interfaces,Excel.Interfaces.ShapeLoadOptions,"Represents a generic shape object in the worksheet. A shape could be a geometric shape, a line, a group of shapes, etc. To learn more about the shape object model, read Work with shapes using the Excel JavaScript API."
+Interfaces,Excel.Interfaces.ShapeUpdateData,"An interface for updating data on the Shape object, for use in shape.set({ ... })."
+Interfaces,Excel.Interfaces.SlicerCollectionData,An interface describing the data returned by calling slicerCollection.toJSON().
+Interfaces,Excel.Interfaces.SlicerCollectionLoadOptions,Represents a collection of all the slicer objects in the workbook or a worksheet.
+Interfaces,Excel.Interfaces.SlicerCollectionUpdateData,"An interface for updating data on the SlicerCollection object, for use in slicerCollection.set({ ... })."
+Interfaces,Excel.Interfaces.SlicerData,An interface describing the data returned by calling slicer.toJSON().
+Interfaces,Excel.Interfaces.SlicerItemCollectionData,An interface describing the data returned by calling slicerItemCollection.toJSON().
+Interfaces,Excel.Interfaces.SlicerItemCollectionLoadOptions,Represents a collection of all the slicer item objects in the slicer.
+Interfaces,Excel.Interfaces.SlicerItemCollectionUpdateData,"An interface for updating data on the SlicerItemCollection object, for use in slicerItemCollection.set({ ... })."
+Interfaces,Excel.Interfaces.SlicerItemData,An interface describing the data returned by calling slicerItem.toJSON().
+Interfaces,Excel.Interfaces.SlicerItemLoadOptions,Represents a slicer item in a slicer.
+Interfaces,Excel.Interfaces.SlicerItemUpdateData,"An interface for updating data on the SlicerItem object, for use in slicerItem.set({ ... })."
+Interfaces,Excel.Interfaces.SlicerLoadOptions,Represents a Slicer object in the workbook.
+Interfaces,Excel.Interfaces.SlicerStyleCollectionData,An interface describing the data returned by calling slicerStyleCollection.toJSON().
+Interfaces,Excel.Interfaces.SlicerStyleCollectionLoadOptions,Represents a collection of SlicerStyle objects.
+Interfaces,Excel.Interfaces.SlicerStyleCollectionUpdateData,"An interface for updating data on the SlicerStyleCollection object, for use in slicerStyleCollection.set({ ... })."
+Interfaces,Excel.Interfaces.SlicerStyleData,An interface describing the data returned by calling slicerStyle.toJSON().
+Interfaces,Excel.Interfaces.SlicerStyleLoadOptions,"Represents a slicer style, which defines style elements by region of the slicer."
+Interfaces,Excel.Interfaces.SlicerStyleUpdateData,"An interface for updating data on the SlicerStyle object, for use in slicerStyle.set({ ... })."
+Interfaces,Excel.Interfaces.SlicerUpdateData,"An interface for updating data on the Slicer object, for use in slicer.set({ ... })."
+Interfaces,Excel.Interfaces.StyleCollectionData,An interface describing the data returned by calling styleCollection.toJSON().
+Interfaces,Excel.Interfaces.StyleCollectionLoadOptions,Represents a collection of all the styles.
+Interfaces,Excel.Interfaces.StyleCollectionUpdateData,"An interface for updating data on the StyleCollection object, for use in styleCollection.set({ ... })."
+Interfaces,Excel.Interfaces.StyleData,An interface describing the data returned by calling style.toJSON().
+Interfaces,Excel.Interfaces.StyleLoadOptions,An object encapsulating a style's format and other properties.
+Interfaces,Excel.Interfaces.StyleUpdateData,"An interface for updating data on the Style object, for use in style.set({ ... })."
+Interfaces,Excel.Interfaces.TableCollectionData,An interface describing the data returned by calling tableCollection.toJSON().
+Interfaces,Excel.Interfaces.TableCollectionLoadOptions,"Represents a collection of all the tables that are part of the workbook or worksheet, depending on how it was reached."
+Interfaces,Excel.Interfaces.TableCollectionUpdateData,"An interface for updating data on the TableCollection object, for use in tableCollection.set({ ... })."
+Interfaces,Excel.Interfaces.TableColumnCollectionData,An interface describing the data returned by calling tableColumnCollection.toJSON().
+Interfaces,Excel.Interfaces.TableColumnCollectionLoadOptions,Represents a collection of all the columns that are part of the table.
+Interfaces,Excel.Interfaces.TableColumnCollectionUpdateData,"An interface for updating data on the TableColumnCollection object, for use in tableColumnCollection.set({ ... })."
+Interfaces,Excel.Interfaces.TableColumnData,An interface describing the data returned by calling tableColumn.toJSON().
+Interfaces,Excel.Interfaces.TableColumnLoadOptions,Represents a column in a table.
+Interfaces,Excel.Interfaces.TableColumnUpdateData,"An interface for updating data on the TableColumn object, for use in tableColumn.set({ ... })."
+Interfaces,Excel.Interfaces.TableData,An interface describing the data returned by calling table.toJSON().
+Interfaces,Excel.Interfaces.TableLoadOptions,"Represents an Excel table. To learn more about the table object model, read Work with tables using the Excel JavaScript API."
+Interfaces,Excel.Interfaces.TableRowCollectionData,An interface describing the data returned by calling tableRowCollection.toJSON().
+Interfaces,Excel.Interfaces.TableRowCollectionLoadOptions,Represents a collection of all the rows that are part of the table.
+Interfaces,Excel.Interfaces.TableRowCollectionUpdateData,"An interface for updating data on the TableRowCollection object, for use in tableRowCollection.set({ ... })."
+Interfaces,Excel.Interfaces.TableRowData,An interface describing the data returned by calling tableRow.toJSON().
+Interfaces,Excel.Interfaces.TableRowLoadOptions,Represents a row in a table.
+Interfaces,Excel.Interfaces.TableRowUpdateData,"An interface for updating data on the TableRow object, for use in tableRow.set({ ... })."
+Interfaces,Excel.Interfaces.TableScopedCollectionData,An interface describing the data returned by calling tableScopedCollection.toJSON().
+Interfaces,Excel.Interfaces.TableScopedCollectionLoadOptions,"Represents a scoped collection of tables. For each table its top-left corner is considered its anchor location, and the tables are sorted top-to-bottom and then left-to-right."
+Interfaces,Excel.Interfaces.TableScopedCollectionUpdateData,"An interface for updating data on the TableScopedCollection object, for use in tableScopedCollection.set({ ... })."
+Interfaces,Excel.Interfaces.TableSortData,An interface describing the data returned by calling tableSort.toJSON().
+Interfaces,Excel.Interfaces.TableSortLoadOptions,Manages sorting operations on Table objects.
+Interfaces,Excel.Interfaces.TableStyleCollectionData,An interface describing the data returned by calling tableStyleCollection.toJSON().
+Interfaces,Excel.Interfaces.TableStyleCollectionLoadOptions,Represents a collection of table styles.
+Interfaces,Excel.Interfaces.TableStyleCollectionUpdateData,"An interface for updating data on the TableStyleCollection object, for use in tableStyleCollection.set({ ... })."
+Interfaces,Excel.Interfaces.TableStyleData,An interface describing the data returned by calling tableStyle.toJSON().
+Interfaces,Excel.Interfaces.TableStyleLoadOptions,"Represents a table style, which defines the style elements by region of the table."
+Interfaces,Excel.Interfaces.TableStyleUpdateData,"An interface for updating data on the TableStyle object, for use in tableStyle.set({ ... })."
+Interfaces,Excel.Interfaces.TableUpdateData,"An interface for updating data on the Table object, for use in table.set({ ... })."
+Interfaces,Excel.Interfaces.TextConditionalFormatData,An interface describing the data returned by calling textConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.TextConditionalFormatLoadOptions,Represents a specific text conditional format.
+Interfaces,Excel.Interfaces.TextConditionalFormatUpdateData,"An interface for updating data on the TextConditionalFormat object, for use in textConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.TextFrameData,An interface describing the data returned by calling textFrame.toJSON().
+Interfaces,Excel.Interfaces.TextFrameLoadOptions,Represents the text frame of a shape object.
+Interfaces,Excel.Interfaces.TextFrameUpdateData,"An interface for updating data on the TextFrame object, for use in textFrame.set({ ... })."
+Interfaces,Excel.Interfaces.TextRangeData,An interface describing the data returned by calling textRange.toJSON().
+Interfaces,Excel.Interfaces.TextRangeLoadOptions,"Contains the text that is attached to a shape, in addition to properties and methods for manipulating the text."
+Interfaces,Excel.Interfaces.TextRangeUpdateData,"An interface for updating data on the TextRange object, for use in textRange.set({ ... })."
+Interfaces,Excel.Interfaces.TimelineStyleCollectionData,An interface describing the data returned by calling timelineStyleCollection.toJSON().
+Interfaces,Excel.Interfaces.TimelineStyleCollectionLoadOptions,Represents a collection of timeline styles.
+Interfaces,Excel.Interfaces.TimelineStyleCollectionUpdateData,"An interface for updating data on the TimelineStyleCollection object, for use in timelineStyleCollection.set({ ... })."
+Interfaces,Excel.Interfaces.TimelineStyleData,An interface describing the data returned by calling timelineStyle.toJSON().
+Interfaces,Excel.Interfaces.TimelineStyleLoadOptions,"Represents a TimelineStyle, which defines style elements by region in the timeline."
+Interfaces,Excel.Interfaces.TimelineStyleUpdateData,"An interface for updating data on the TimelineStyle object, for use in timelineStyle.set({ ... })."
+Interfaces,Excel.Interfaces.TopBottomConditionalFormatData,An interface describing the data returned by calling topBottomConditionalFormat.toJSON().
+Interfaces,Excel.Interfaces.TopBottomConditionalFormatLoadOptions,Represents a top/bottom conditional format.
+Interfaces,Excel.Interfaces.TopBottomConditionalFormatUpdateData,"An interface for updating data on the TopBottomConditionalFormat object, for use in topBottomConditionalFormat.set({ ... })."
+Interfaces,Excel.Interfaces.WorkbookCreatedData,An interface describing the data returned by calling workbookCreated.toJSON().
+Interfaces,Excel.Interfaces.WorkbookData,An interface describing the data returned by calling workbook.toJSON().
+Interfaces,Excel.Interfaces.WorkbookLoadOptions,"Workbook is the top level object which contains related workbook objects such as worksheets, tables, and ranges. To learn more about the workbook object model, read Work with workbooks using the Excel JavaScript API."
+Interfaces,Excel.Interfaces.WorkbookProtectionData,An interface describing the data returned by calling workbookProtection.toJSON().
+Interfaces,Excel.Interfaces.WorkbookProtectionLoadOptions,Represents the protection of a workbook object.
+Interfaces,Excel.Interfaces.WorkbookRangeAreasData,An interface describing the data returned by calling workbookRangeAreas.toJSON().
+Interfaces,Excel.Interfaces.WorkbookRangeAreasLoadOptions,Represents a collection of one or more rectangular ranges in multiple worksheets.
+Interfaces,Excel.Interfaces.WorkbookUpdateData,"An interface for updating data on the Workbook object, for use in workbook.set({ ... })."
+Interfaces,Excel.Interfaces.WorksheetCollectionData,An interface describing the data returned by calling worksheetCollection.toJSON().
+Interfaces,Excel.Interfaces.WorksheetCollectionLoadOptions,Represents a collection of worksheet objects that are part of the workbook.
+Interfaces,Excel.Interfaces.WorksheetCollectionUpdateData,"An interface for updating data on the WorksheetCollection object, for use in worksheetCollection.set({ ... })."
+Interfaces,Excel.Interfaces.WorksheetCustomPropertyCollectionData,An interface describing the data returned by calling worksheetCustomPropertyCollection.toJSON().
+Interfaces,Excel.Interfaces.WorksheetCustomPropertyCollectionLoadOptions,Contains the collection of worksheet-level custom property.
+Interfaces,Excel.Interfaces.WorksheetCustomPropertyCollectionUpdateData,"An interface for updating data on the WorksheetCustomPropertyCollection object, for use in worksheetCustomPropertyCollection.set({ ... })."
+Interfaces,Excel.Interfaces.WorksheetCustomPropertyData,An interface describing the data returned by calling worksheetCustomProperty.toJSON().
+Interfaces,Excel.Interfaces.WorksheetCustomPropertyLoadOptions,Represents a worksheet-level custom property.
+Interfaces,Excel.Interfaces.WorksheetCustomPropertyUpdateData,"An interface for updating data on the WorksheetCustomProperty object, for use in worksheetCustomProperty.set({ ... })."
+Interfaces,Excel.Interfaces.WorksheetData,An interface describing the data returned by calling worksheet.toJSON().
+Interfaces,Excel.Interfaces.WorksheetLoadOptions,"An Excel worksheet is a grid of cells. It can contain data, tables, charts, etc. To learn more about the worksheet object model, read Work with worksheets using the Excel JavaScript API."
+Interfaces,Excel.Interfaces.WorksheetProtectionData,An interface describing the data returned by calling worksheetProtection.toJSON().
+Interfaces,Excel.Interfaces.WorksheetProtectionLoadOptions,Represents the protection of a worksheet object.
+Interfaces,Excel.Interfaces.WorksheetUpdateData,"An interface for updating data on the Worksheet object, for use in worksheet.set({ ... })."
+Interfaces,Excel.LinkedDataTypeAddedEventArgs,The argument that is passed to the event handler after a new linked data type is added to the workbook.
+Interfaces,Excel.LinkedEntityCellValue,Represents a value whose properties derive from a service.
+Interfaces,Excel.LinkedEntityId,The linked entity ID object represents a set of properties that describes a service and culture for locating this service defined value.
+Interfaces,Excel.ListDataValidation,Represents the List data validation criteria.
+Interfaces,Excel.LocalImageCellValue,Represents the value of a cell containing a locally stored or generated image.
+Interfaces,Excel.LocalImageCellValueCacheId,The UID of a previously cached image.
+Interfaces,Excel.NameErrorCellValue,Represents the value of a cell containing a #NAME? error.
+Interfaces,Excel.NotAvailableErrorCellValue,Represents the value of a cell containing a #N/A! error.
+Interfaces,Excel.NullErrorCellValue,Represents the value of a cell containing a #NULL! error.
+Interfaces,Excel.NumErrorCellValue,Represents the value of a cell containing a #NUM! error.
+Interfaces,Excel.PageLayoutMarginOptions,Represents the options in page layout margins.
+Interfaces,Excel.PageLayoutZoomOptions,Represents page zoom properties.
+Interfaces,Excel.PivotDateFilter,Configurable template for a date filter to apply to a PivotField. The condition defines what criteria need to be set in order for the filter to operate.
+Interfaces,Excel.PivotFilters,An interface representing all PivotFilters currently applied to a given PivotField.
+Interfaces,Excel.PivotLabelFilter,Configurable template for a label filter to apply to a PivotField. The condition defines what criteria need to be set in order for the filter to operate.
+Interfaces,Excel.PivotManualFilter,Configurable template for a manual filter to apply to a PivotField. The condition defines what criteria need to be set in order for the filter to operate.
+Interfaces,Excel.PivotValueFilter,Configurable template for a value filter to apply to a PivotField. The condition defines what criteria need to be set in order for the filter to operate.
+Interfaces,Excel.PlaceholderErrorCellValue,Represents the value of a cell containing a #BUSY! error. This type of error is used as a placeholder while the value of a cell is downloaded.
+Interfaces,Excel.PythonErrorCellValue,Represents the value of a cell containing a #PYTHON! error.
+Interfaces,Excel.RangeHyperlink,Represents the necessary strings to get/set a hyperlink (XHL) object.
+Interfaces,Excel.RangeReference,"Represents a string reference of the form ""SheetName!A1:B5"", or a global or local named range."
+Interfaces,Excel.ReferenceCellValue,"Represents a reference into referencedValues. One scenario for using this reference is to avoid duplicating cell value objects (such as an EntityCellValue). Define a cell value object once in referencedValues, and then refer to that cell value from many places by using a ReferenceCellValue where the duplicated value would have appeared."
+Interfaces,Excel.RefErrorCellValue,Represents the value of a cell containing a #REF! error.
+Interfaces,Excel.RefreshModeChangedEventArgs,"Represents information about a newly added linked data type, such as source and ID."
+Interfaces,Excel.RefreshRequestCompletedEventArgs,The argument that is passed to the event handler upon completion of refresh request to an external service or link.
+Interfaces,Excel.ReplaceCriteria,Represents the replace criteria to be used.
+Interfaces,Excel.RootReferenceCellValue,Represents a reference to the value which contains referencedValues.
+Interfaces,Excel.RowProperties,Represents the returned properties of getRowProperties.
+Interfaces,Excel.RowPropertiesLoadOptions,"Represents which row properties to load, when used as part of a ""range.getRowProperties"" method."
+Interfaces,Excel.SearchCriteria,Represents the search criteria to be used.
+Interfaces,Excel.SelectionChangedEventArgs,Provides information about the document that raised the selection changed event.
+Interfaces,Excel.SettableCellProperties,Represents the input parameter of setCellProperties.
+Interfaces,Excel.SettableColumnProperties,Represents the input parameter of setColumnProperties.
+Interfaces,Excel.SettableRowProperties,Represents the input parameter of setRowProperties.
+Interfaces,Excel.SettingsChangedEventArgs,Provides information about the setting that raised the settings changed event
+Interfaces,Excel.ShapeActivatedEventArgs,Provides information about the shape that raised the activated event.
+Interfaces,Excel.ShapeDeactivatedEventArgs,Provides information about the shape that raised the deactivated event.
+Interfaces,Excel.SortField,Represents a condition in a sorting operation.
+Interfaces,Excel.SpillErrorCellValue,Represents the value of a cell containing a #SPILL! error.
+Interfaces,Excel.StringCellValue,Represents the value of a cell containing a string.
+Interfaces,Excel.Subtotals,Subtotals for the Pivot Field.
+Interfaces,Excel.TableAddedEventArgs,Provides information about the table that raised the added event.
+Interfaces,Excel.TableChangedEventArgs,Provides information about the table that raised the changed event.
+Interfaces,Excel.TableDeletedEventArgs,Provides information about the table that raised the deleted event.
+Interfaces,Excel.TableFilteredEventArgs,Provides information about the table that raised the filter applied event.
+Interfaces,Excel.TableSelectionChangedEventArgs,Provides information about the table that raised the selection changed event.
+Interfaces,Excel.TimeoutErrorCellValue,Represents the value of a cell containing a #TIMEOUT! error.
+Interfaces,Excel.ValueErrorCellValue,Represents the value of a cell containing a #VALUE! error.
+Interfaces,Excel.ValueTypeNotAvailableCellValue,"Represents the value of a cell containing a type of value which cannot be serialized. For example, an #UNKNOWN! error which represents a type of rich value not known to this version of Excel."
+Interfaces,Excel.WebImageCellValue,Represents the value of a cell containing an image downloaded from the internet.
+Interfaces,Excel.WorkbookActivatedEventArgs,Provides information about the workbook that raised the activated event.
+Interfaces,Excel.WorkbookAutoSaveSettingChangedEventArgs,Provides information about the workbook's onAutoSaveSettingChanged event.
+Interfaces,Excel.WorksheetActivatedEventArgs,Provides information about the worksheet that raised the activated event.
+Interfaces,Excel.WorksheetAddedEventArgs,Provides information about the worksheet that raised the added event.
+Interfaces,Excel.WorksheetCalculatedEventArgs,Provides information about the worksheet that raised the calculated event.
+Interfaces,Excel.WorksheetChangedEventArgs,Provides information about the worksheet that raised the changed event.
+Interfaces,Excel.WorksheetColumnSortedEventArgs,Provides information about the column-sorted event and its related worksheet.
+Interfaces,Excel.WorksheetDeactivatedEventArgs,Provides information about the worksheet that raised the deactivated event.
+Interfaces,Excel.WorksheetDeletedEventArgs,Provides information about the worksheet that raised the deleted event.
+Interfaces,Excel.WorksheetFilteredEventArgs,Provides information about the worksheet that raised the filter applied event.
+Interfaces,Excel.WorksheetFormatChangedEventArgs,Provides information about the worksheet format change event.
+Interfaces,Excel.WorksheetFormulaChangedEventArgs,Provides information about the worksheet and formulas that raised the formula changed event.
+Interfaces,Excel.WorksheetMovedEventArgs,Notifies when a worksheet is moved within a workbook.
+Interfaces,Excel.WorksheetNameChangedEventArgs,Provides information about the worksheet whose name has changed.
+Interfaces,Excel.WorksheetProtectionChangedEventArgs,"Provides information about the worksheet that raised the protection status changed event, which fires when the protection status is updated in a worksheet."
+Interfaces,Excel.WorksheetProtectionOptions,Represents the options in sheet protection.
+Interfaces,Excel.WorksheetRowHiddenChangedEventArgs,Provides information about the worksheet's row hidden change event.
+Interfaces,Excel.WorksheetRowSortedEventArgs,Provides information about the row-sorted event and its related worksheet.
+Interfaces,Excel.WorksheetSearchCriteria,Represents the worksheet search criteria to be used.
+Interfaces,Excel.WorksheetSelectionChangedEventArgs,Provides information about the worksheet that raised the selection changed event.
+Interfaces,Excel.WorksheetSingleClickedEventArgs,Provides information about the left-clicked/tapped event and its related worksheet.
+Interfaces,Excel.WorksheetVisibilityChangedEventArgs,Provides information about the worksheet whose visibility has changed.
+Functions,Excel.createWorkbook(base64),"Creates and opens a new workbook. Optionally, the workbook can be pre-populated with a base64-encoded .xlsx file. Note: Macros can be a security risk. If this API is used to create a workbook that includes a macro, the add-in user will be prompted with a ""Trust this add-in?"" dialog in the Excel UI. The user must select the ""Trust add-in"" button to proceed."
+Functions,"Excel.getDataCommonPostprocess(response, callArgs)","This function is typically used internally by the Excel JavaScript API to process the common data retrieved from an API call. The response parameter contains the raw data returned by the API, and callArgs includes any arguments that were passed to the call. This function processes the data according to the provided arguments, often used for standardizing or formatting the response before it is used further."
+Functions,Excel.postprocessBindingDescriptor(response),"This function is generally used internally by the Excel JavaScript API to post-process the binding descriptors received from an API call. The response parameter contains the binding data that has been returned by the API. The function modifies or processes this data to ensure it conforms to the expected structure or format, making it ready for further use in the application."
+Functions,Excel.run(batch),"Executes a batch script that performs actions on the Excel object model, using a new RequestContext. When the promise is resolved, any tracked objects that were automatically allocated during execution will be released."
+Functions,"Excel.run(object, batch)","Executes a batch script that performs actions on the Excel object model, using the RequestContext of a previously-created API object. When the promise is resolved, any tracked objects that were automatically allocated during execution will be released."
+Functions,"Excel.run(objects, batch)","Executes a batch script that performs actions on the Excel object model, using the RequestContext of previously-created API objects."
+Functions,"Excel.run(options, batch)","Executes a batch script that performs actions on the Excel object model, using the RequestContext of a previously-created API object. When the promise is resolved, any tracked objects that were automatically allocated during execution will be released."
+Functions,"Excel.run(context, batch)","Executes a batch script that performs actions on the Excel object model, using the RequestContext of a previously-created object. When the promise is resolved, any tracked objects that were automatically allocated during execution will be released."
