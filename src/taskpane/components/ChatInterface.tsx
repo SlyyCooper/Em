@@ -30,7 +30,7 @@ import {
 import { ChartType, Filters, PivotAggregationFunction } from "./App";
 import { embedWorksheet, embedAllWorksheets, initializeOpenAI } from "../embedding_operations";
 
-const DEFAULT_API_KEY = "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";
+const DEFAULT_API_KEY = "YOUR_API_KEY";
 
 const useStyles = makeStyles({
   chatInterface: {
